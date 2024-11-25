@@ -10,3 +10,14 @@ C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangm
 C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\obj\Debug\Bank_Mangment_System.LoginForm.resources
 C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\FontAwesome.Sharp.dll
 C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\obj\Debug\Bank Man.05356C96.Up2Date
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\obj\Debug\Bank_Mangment_System.SignUpForm.resources
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\Guna.UI2.dll
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\Microsoft.Web.WebView2.Core.dll
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\Microsoft.Web.WebView2.Core.xml
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\Microsoft.Web.WebView2.Wpf.xml

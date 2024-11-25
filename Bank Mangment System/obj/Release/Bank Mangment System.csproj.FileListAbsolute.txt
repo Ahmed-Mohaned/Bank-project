@@ -1,0 +1,12 @@
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Release\Bank Mangment System.exe.config
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Release\Bank Mangment System.exe
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Release\Bank Mangment System.pdb
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Release\FontAwesome.Sharp.dll
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\obj\Release\Bank Mangment System.csproj.AssemblyReference.cache
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\obj\Release\Bank_Mangment_System.LoginForm.resources
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\obj\Release\Bank_Mangment_System.Properties.Resources.resources
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\obj\Release\Bank Mangment System.csproj.GenerateResource.cache
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\obj\Release\Bank Mangment System.csproj.CoreCompileInputs.cache
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\obj\Release\Bank Man.05356C96.Up2Date
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\obj\Release\Bank Mangment System.exe
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\obj\Release\Bank Mangment System.pdb
