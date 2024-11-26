@@ -8,12 +8,12 @@ namespace Bank_Mangment_System
 {
     public class AccountInfos
     {
-        private Name name;
-        private Name motherName;
+        private Name name = new Name();  // تهيئة الكائن
+        private Name motherName = new Name();  // تهيئة الكائن
         private string phoneNumber;
-        private Birth birth;
+        private Birth birth = new Birth();  // تهيئة الكائن
         private string gender;
-        private Location location;
+        private Location location = new Location();  // تهيئة الكائن
         private string email;
         private string password;
         private string nationalIDCardPath;
@@ -34,6 +34,6 @@ namespace Bank_Mangment_System
         public string PassportPath { get => passportPath; set => passportPath = value; }
         public string ResidenceCardPath { get => residenceCardPath; set => residenceCardPath = value; }
         public bool Employee { get => employee; set => employee = value; }
-        public string Photo { get => Photo; set => Photo = value; }
+        public string Photo { get => photo; set => photo = value; }
     }
 }

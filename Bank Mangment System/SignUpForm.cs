@@ -9,9 +9,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using TheArtOfDevHtmlRenderer.Adapters;
-using Emgu.CV;
-using Emgu.CV.CvEnum;
-using Emgu.CV.Structure;
+using AForge.Video;
+using AForge.Video.DirectShow;
+
 
 namespace Bank_Mangment_System
 {
@@ -19,7 +19,9 @@ namespace Bank_Mangment_System
     {
         AccountInfos Person = new AccountInfos();
 
-       
+        private FilterInfoCollection videoDevices; // قائمة الأجهزة المتاحة
+        private VideoCaptureDevice videoSource;    // مصدر الفيديو (الكاميرا)
+        private Bitmap capturedImage;
 
         private string EmployeefolderPath = Path.Combine(Application.StartupPath, "EmployeeData");
         private string EmployeefilePath;
@@ -125,9 +127,44 @@ namespace Bank_Mangment_System
             Person.Location.House = Housetxt.Text;
             Person.Email = Emailtxt.Text;
             Person.Password = Passwordtxt.Text;
+            if (EmployeeRbtn.Checked)
+                Person.Employee = true;
+            if (capturedImage == null)
+            {
+                MessageBox.Show("Please capture an image before signing up.", "Error");
+                return;
+            }
 
+            // تحديد مسار الحفظ بناءً على نوع المستخدم
+            string folderPath = (Person.Employee) ? EmployeefolderPath : ClientfolderPath;
+            string filePath = Path.Combine(folderPath, $"{Person.Name.First}_{Person.Name.Last}.jpg");
 
-            
+            try
+            {
+                // حفظ الصورة
+                capturedImage.Save(filePath);
+
+                // تخزين معلومات المسار في الملف النصي المناسب
+                string infoFilePath = (Person.Employee) ? EmployeefilePath : ClientfilePath;
+               
+                using (StreamWriter sw = new StreamWriter(infoFilePath, true))
+                {
+                    string userData = $"{Person.Name.First};{Person.Name.Last};{Person.MotherName.First};{Person.MotherName.Last};{Person.PhoneNumber};" +
+                                      $"{Person.Birth.Day}/{Person.Birth.Month}/{Person.Birth.Year};{Person.Gender};{Person.Location.District};" +
+                                      $"{Person.Location.Alley};{Person.Location.House};{Person.Email};{Person.Password};" +
+                                      $"{(Person.Employee ? "Yes" : "No")};{filePath}";
+
+                    sw.WriteLine(userData);
+                }
+
+                MessageBox.Show($"User signed up successfully! Image saved at: {filePath}", "Success");
+             
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error saving image or information: {ex.Message}", "Error");
+            }
+
         }
 
         private void Passportbtn_Click(object sender, EventArgs e)
@@ -172,11 +209,72 @@ namespace Bank_Mangment_System
 
         private void guna2Button4_Click(object sender, EventArgs e)
         {
+            if (capturedImage != null)
+            {
+                try
+                {
+                    string filePath = "captured_image.jpg";
+                    capturedImage.Save(filePath);
+                    MessageBox.Show($"Image saved at: {filePath}", "Success");
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Error saving image: {ex.Message}", "Error");
+                }
+            }
+            else
+            {
+                MessageBox.Show("No image captured.", "Error");
+            }
         }
-
+       
+        
         private void guna2Button6_Click(object sender, EventArgs e)
         {
-           
+            capturedImage = null;
+            Camerapicbox.Image = null;
+            videoSource.SignalToStop();
+            videoSource.WaitForStop();
+            videoSource.Start();
+        }
+
+        private void guna2Button5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button5_Click_1(object sender, EventArgs e)
+        {
+            videoDevices = new FilterInfoCollection(FilterCategory.VideoInputDevice);
+            if (videoDevices.Count == 0)
+            {
+                MessageBox.Show("No video devices found.");
+                return;
+            }
+
+            // اختر الكاميرا الأولى
+            videoSource = new VideoCaptureDevice(videoDevices[0].MonikerString);
+
+            // قم بتوصيل الكاميرا
+            videoSource.NewFrame += new NewFrameEventHandler(videoSource_NewFrame);
+            videoSource.Start();
+        }
+        private void videoSource_NewFrame(object sender, NewFrameEventArgs eventArgs)
+        {
+            // عرض الإطار في صورة PictureBox
+            capturedImage = (Bitmap)eventArgs.Frame.Clone();
+            Camerapicbox.Image = capturedImage;
+        }
+
+        private void guna2Button1_Click_1(object sender, EventArgs e)
+        {
+            if (videoSource != null && videoSource.IsRunning)
+            {
+                videoSource.SignalToStop();
+                videoSource.WaitForStop();
+            }
+            // إعادة تعيين الفيديو إذا كان تم تهيئته
+            videoSource = null;
         }
     }
 }

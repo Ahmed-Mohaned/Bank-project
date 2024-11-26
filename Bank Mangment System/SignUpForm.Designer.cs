@@ -57,19 +57,17 @@
             this.Housetxt = new Guna.UI2.WinForms.Guna2TextBox();
             this.Passwordtxt = new Guna.UI2.WinForms.Guna2TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
-            this.Capturedpicbox = new System.Windows.Forms.PictureBox();
             this.Camerapicbox = new System.Windows.Forms.PictureBox();
             this.Signupbtn = new Guna.UI2.WinForms.Guna2Button();
             this.panel1.SuspendLayout();
             this.PesonalInfosGB.SuspendLayout();
             this.LocationandAccountinfosGB.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Capturedpicbox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Camerapicbox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -448,6 +446,7 @@
             this.housingbtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.housingbtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.housingbtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.housingbtn.FillColor = System.Drawing.Color.MediumAquamarine;
             this.housingbtn.Font = new System.Drawing.Font("Century Gothic", 12F);
             this.housingbtn.ForeColor = System.Drawing.Color.White;
             this.housingbtn.Location = new System.Drawing.Point(24, 788);
@@ -465,6 +464,7 @@
             this.Passportbtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.Passportbtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.Passportbtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Passportbtn.FillColor = System.Drawing.Color.MediumAquamarine;
             this.Passportbtn.Font = new System.Drawing.Font("Century Gothic", 12F);
             this.Passportbtn.ForeColor = System.Drawing.Color.White;
             this.Passportbtn.Location = new System.Drawing.Point(24, 671);
@@ -482,6 +482,7 @@
             this.Ncardbtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.Ncardbtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.Ncardbtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Ncardbtn.FillColor = System.Drawing.Color.MediumAquamarine;
             this.Ncardbtn.Font = new System.Drawing.Font("Century Gothic", 12F);
             this.Ncardbtn.ForeColor = System.Drawing.Color.White;
             this.Ncardbtn.Location = new System.Drawing.Point(24, 568);
@@ -618,35 +619,44 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.label3);
+            this.groupBox2.Controls.Add(this.Signupbtn);
+            this.groupBox2.Controls.Add(this.guna2Button1);
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Controls.Add(this.guna2Button6);
             this.groupBox2.Controls.Add(this.guna2Button5);
             this.groupBox2.Controls.Add(this.guna2Button4);
-            this.groupBox2.Controls.Add(this.Capturedpicbox);
             this.groupBox2.Controls.Add(this.Camerapicbox);
             this.groupBox2.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.SeaGreen;
-            this.groupBox2.Location = new System.Drawing.Point(1018, 72);
+            this.groupBox2.Location = new System.Drawing.Point(997, 72);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(424, 978);
+            this.groupBox2.Size = new System.Drawing.Size(890, 978);
             this.groupBox2.TabIndex = 26;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Photo";
             // 
-            // label3
+            // guna2Button1
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(18, 455);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(165, 23);
-            this.label3.TabIndex = 29;
-            this.label3.Text = "Captured photo";
+            this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button1.BorderRadius = 13;
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.FillColor = System.Drawing.Color.MediumAquamarine;
+            this.guna2Button1.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.Location = new System.Drawing.Point(443, 843);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.Size = new System.Drawing.Size(209, 41);
+            this.guna2Button1.TabIndex = 30;
+            this.guna2Button1.Text = "Close Camera";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click_1);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(18, 59);
+            this.label1.Location = new System.Drawing.Point(18, 40);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(90, 23);
             this.label1.TabIndex = 28;
@@ -660,11 +670,12 @@
             this.guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button6.FillColor = System.Drawing.Color.MediumAquamarine;
             this.guna2Button6.Font = new System.Drawing.Font("Century Gothic", 12F);
             this.guna2Button6.ForeColor = System.Drawing.Color.White;
-            this.guna2Button6.Location = new System.Drawing.Point(39, 907);
+            this.guna2Button6.Location = new System.Drawing.Point(658, 843);
             this.guna2Button6.Name = "guna2Button6";
-            this.guna2Button6.Size = new System.Drawing.Size(343, 55);
+            this.guna2Button6.Size = new System.Drawing.Size(208, 41);
             this.guna2Button6.TabIndex = 27;
             this.guna2Button6.Text = "Try Again";
             this.guna2Button6.Click += new System.EventHandler(this.guna2Button6_Click);
@@ -677,13 +688,15 @@
             this.guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button5.FillColor = System.Drawing.Color.MediumAquamarine;
             this.guna2Button5.Font = new System.Drawing.Font("Century Gothic", 12F);
             this.guna2Button5.ForeColor = System.Drawing.Color.White;
-            this.guna2Button5.Location = new System.Drawing.Point(39, 839);
+            this.guna2Button5.Location = new System.Drawing.Point(6, 844);
             this.guna2Button5.Name = "guna2Button5";
-            this.guna2Button5.Size = new System.Drawing.Size(343, 55);
+            this.guna2Button5.Size = new System.Drawing.Size(228, 41);
             this.guna2Button5.TabIndex = 27;
-            this.guna2Button5.Text = "Save";
+            this.guna2Button5.Text = "Open camera";
+            this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click_1);
             // 
             // guna2Button4
             // 
@@ -693,28 +706,22 @@
             this.guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button4.FillColor = System.Drawing.Color.MediumAquamarine;
             this.guna2Button4.Font = new System.Drawing.Font("Century Gothic", 12F);
             this.guna2Button4.ForeColor = System.Drawing.Color.White;
-            this.guna2Button4.Location = new System.Drawing.Point(39, 761);
+            this.guna2Button4.Location = new System.Drawing.Point(240, 843);
             this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.Size = new System.Drawing.Size(343, 55);
+            this.guna2Button4.Size = new System.Drawing.Size(197, 40);
             this.guna2Button4.TabIndex = 26;
-            this.guna2Button4.Text = "Take ";
+            this.guna2Button4.Text = "Save image";
             this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
-            // 
-            // Capturedpicbox
-            // 
-            this.Capturedpicbox.Location = new System.Drawing.Point(22, 493);
-            this.Capturedpicbox.Name = "Capturedpicbox";
-            this.Capturedpicbox.Size = new System.Drawing.Size(308, 244);
-            this.Capturedpicbox.TabIndex = 1;
-            this.Capturedpicbox.TabStop = false;
             // 
             // Camerapicbox
             // 
-            this.Camerapicbox.Location = new System.Drawing.Point(22, 107);
+            this.Camerapicbox.Location = new System.Drawing.Point(22, 66);
             this.Camerapicbox.Name = "Camerapicbox";
-            this.Camerapicbox.Size = new System.Drawing.Size(377, 333);
+            this.Camerapicbox.Size = new System.Drawing.Size(844, 750);
+            this.Camerapicbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Camerapicbox.TabIndex = 0;
             this.Camerapicbox.TabStop = false;
             // 
@@ -726,11 +733,12 @@
             this.Signupbtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.Signupbtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.Signupbtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Signupbtn.FillColor = System.Drawing.Color.MediumAquamarine;
             this.Signupbtn.Font = new System.Drawing.Font("Century Gothic", 12F);
             this.Signupbtn.ForeColor = System.Drawing.Color.White;
-            this.Signupbtn.Location = new System.Drawing.Point(1490, 979);
+            this.Signupbtn.Location = new System.Drawing.Point(6, 893);
             this.Signupbtn.Name = "Signupbtn";
-            this.Signupbtn.Size = new System.Drawing.Size(343, 55);
+            this.Signupbtn.Size = new System.Drawing.Size(860, 55);
             this.Signupbtn.TabIndex = 28;
             this.Signupbtn.Text = "Sign up";
             this.Signupbtn.Click += new System.EventHandler(this.guna2Button7_Click);
@@ -740,7 +748,6 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1920, 1080);
-            this.Controls.Add(this.Signupbtn);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.LocationandAccountinfosGB);
             this.Controls.Add(this.PesonalInfosGB);
@@ -756,7 +763,6 @@
             this.LocationandAccountinfosGB.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Capturedpicbox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Camerapicbox)).EndInit();
             this.ResumeLayout(false);
 
@@ -797,9 +803,8 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button6;
         private Guna.UI2.WinForms.Guna2Button guna2Button5;
         private Guna.UI2.WinForms.Guna2Button guna2Button4;
-        private System.Windows.Forms.PictureBox Capturedpicbox;
         private System.Windows.Forms.PictureBox Camerapicbox;
-        private System.Windows.Forms.Label label3;
         private Guna.UI2.WinForms.Guna2Button Signupbtn;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
     }
 }
