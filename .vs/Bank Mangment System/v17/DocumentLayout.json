@@ -3,18 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\Study\\source\\repos\\Bank-mangment-system\\Bank Mangment System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A3FBBBE7-FBE1-4D14-9260-1950069A4DFB}|Bank Mangment System\\Bank Mangment System.csproj|C:\\Users\\Study\\source\\repos\\Bank-mangment-system\\Bank Mangment System\\bank mangment system\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A3FBBBE7-FBE1-4D14-9260-1950069A4DFB}|Bank Mangment System\\Bank Mangment System.csproj|c:\\users\\study\\desktop\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3FBBBE7-FBE1-4D14-9260-1950069A4DFB}|Bank Mangment System\\Bank Mangment System.csproj|c:\\users\\study\\source\\repos\\bank-mangment-system\\bank mangment system\\bank mangment system\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A3FBBBE7-FBE1-4D14-9260-1950069A4DFB}|Bank Mangment System\\Bank Mangment System.csproj|solutionrelative:bank mangment system\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3FBBBE7-FBE1-4D14-9260-1950069A4DFB}|Bank Mangment System\\Bank Mangment System.csproj|c:\\users\\study\\source\\repos\\bank-mangment-system\\bank mangment system\\bank mangment system\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A3FBBBE7-FBE1-4D14-9260-1950069A4DFB}|Bank Mangment System\\Bank Mangment System.csproj|C:\\Users\\Study\\source\\repos\\Bank-mangment-system\\Bank Mangment System\\bank mangment system\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A3FBBBE7-FBE1-4D14-9260-1950069A4DFB}|Bank Mangment System\\Bank Mangment System.csproj|solutionrelative:bank mangment system\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A3FBBBE7-FBE1-4D14-9260-1950069A4DFB}|Bank Mangment System\\Bank Mangment System.csproj|c:\\users\\study\\desktop\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3FBBBE7-FBE1-4D14-9260-1950069A4DFB}|Bank Mangment System\\Bank Mangment System.csproj|c:\\users\\study\\desktop\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,7 +24,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -32,7 +32,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SignUpForm.cs",
               "DocumentMoniker": "C:\\Users\\Study\\source\\repos\\Bank-mangment-system\\Bank Mangment System\\Bank Mangment System\\SignUpForm.cs",
               "RelativeDocumentMoniker": "Bank Mangment System\\SignUpForm.cs",
@@ -45,32 +45,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SignUpForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Study\\source\\repos\\Bank-mangment-system\\Bank Mangment System\\Bank Mangment System\\SignUpForm.cs",
               "RelativeDocumentMoniker": "Bank Mangment System\\SignUpForm.cs",
               "ToolTip": "C:\\Users\\Study\\source\\repos\\Bank-mangment-system\\Bank Mangment System\\Bank Mangment System\\SignUpForm.cs [Design]",
               "RelativeToolTip": "Bank Mangment System\\SignUpForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T06:47:52.308Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-26T06:47:52.308Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "LoginForm.cs",
               "DocumentMoniker": "C:\\Users\\Study\\Desktop\\LoginForm.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\LoginForm.cs",
               "ToolTip": "C:\\Users\\Study\\Desktop\\LoginForm.cs",
               "RelativeToolTip": "..\\..\\..\\..\\Desktop\\LoginForm.cs",
-              "ViewState": "AgIAAIoAAAAAAAAAAAAAAJYAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAAAIgAAABsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T05:00:28.494Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "LoginForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Study\\Desktop\\LoginForm.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\LoginForm.cs",

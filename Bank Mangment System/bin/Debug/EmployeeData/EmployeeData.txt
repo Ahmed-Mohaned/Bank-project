@@ -1,1 +1,0 @@
-First Name;Last Name;Mother`s First Name;Mother`s Last Name;Phone Number;8/11/2024;Male;District;Alley;House;X;XX;Yes;C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\EmployeeData\First Name_Last Name.jpg
