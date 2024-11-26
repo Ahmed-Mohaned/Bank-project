@@ -8,16 +8,40 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TheArtOfDevHtmlRenderer.Adapters;
+using Emgu.CV;
+using Emgu.CV.CvEnum;
+using Emgu.CV.Structure;
 
 namespace Bank_Mangment_System
 {
     public partial class SignUpForm : Form
     {
+        AccountInfos Person = new AccountInfos();
+
+       
+
+        private string EmployeefolderPath = Path.Combine(Application.StartupPath, "EmployeeData");
+        private string EmployeefilePath;
+        private string ClientfolderPath = Path.Combine(Application.StartupPath, "ClienteData");
+        private string ClientfilePath;
         public SignUpForm()
         {
             InitializeComponent();
-        }
+            if (!Directory.Exists(EmployeefolderPath))
+            {
+                Directory.CreateDirectory(EmployeefolderPath);
+            }
+            EmployeefilePath = Path.Combine(EmployeefolderPath, "EmployeeData.txt");
 
+            if (!Directory.Exists(ClientfolderPath))
+            {
+                Directory.CreateDirectory(ClientfolderPath);
+            }
+            ClientfilePath = Path.Combine(ClientfolderPath, "ClientData.txt");
+        }
+        
+        
         private void SignUpForm_Load(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Maximized;
@@ -57,52 +81,102 @@ namespace Bank_Mangment_System
         {
 
         }
-        
-      /*  private void CopyImageToAppFolder(string imagePath)
-        {
-            string appFolder = Path.Combine(Application.StartupPath, "Images");
-            if (!Directory.Exists(appFolder))
-            {
-                Directory.CreateDirectory(appFolder);
-            }
 
-            string imageName = Path.GetFileName(imagePath);
-            string destinationPath = Path.Combine(appFolder, imageName);
-
-            File.Copy(imagePath, destinationPath, overwrite: true);
-            MessageBox.Show($"Image copied to: {destinationPath}");
-        }*/
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-          /*  using (OpenFileDialog openFileDialog = new OpenFileDialog())
+            using (OpenFileDialog Ncard = new OpenFileDialog())
             {
-                openFileDialog.Filter = "Image Files (*.jpg; *.jpeg; *.png)|*.jpg;*.jpeg;*.png";
-                if (openFileDialog.ShowDialog() == DialogResult.OK)
+                // إعداد الفلاتر لتحديد الملفات المسموح بها
+                Ncard.Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp;*.gif";
+                Ncard.Title = "Select an Image";
+
+                // عرض مستعرض الملفات
+                if (Ncard.ShowDialog() == DialogResult.OK)
                 {
-                    string selectedImagePath = openFileDialog.FileName;
+                    // تخزين مسار الملف المختار في المتغير
+                    Person.NationalIDCardPath = Ncard.FileName;
 
-                    // عرض المسار باستخدام رسالة بدلاً من TextBox
-                    MessageBox.Show($"Selected image path: {selectedImagePath}");
-
-                    // نسخ الصورة إلى مجلد التطبيق
-                    CopyImageToAppFolder(selectedImagePath);
-                    DisplayImageInPictureBox(selectedImagePath);
-
+                    // عرض المسار في رسالة أو تحديث عنصر واجهة مستخدم
+                    MessageBox.Show($"Image Path: {Person.NationalIDCardPath}", "Selected Image");
                 }
-            }*/
-        }
-        /*private void DisplayImageInPictureBox(string imagePath)
-        {
-            if (File.Exists(imagePath))
-            {
-                pictureBox1.Image = Image.FromFile(imagePath); // تحميل الصورة إلى PictureBox
             }
-            else
-            {
-                MessageBox.Show("The selected image could not be found.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }*/
 
+        }
+        
+        private void guna2Button7_Click(object sender, EventArgs e)
+        {
+            Person.Name.First = FirstNametxt.Text;
+            Person.Name.Middle = MiddleNametxt.Text;
+            Person.Name.Last = LastNametxt.Text;
+            Person.Name.Family = FamilyNametxt.Text;
+            Person.MotherName.First = MotherFNtxt.Text;
+            Person.MotherName.Last = MotherLNtxt.Text;
+            Person.PhoneNumber = PhoneNumbertxt.Text;
+            Person.Birth.Year = BirthDateDateTimePicker1.Value.Year;
+            Person.Birth.Month = BirthDateDateTimePicker1.Value.Month;
+            Person.Birth.Day = BirthDateDateTimePicker1.Value.Day;
+            if (MaleRbtn.Checked)
+                Person.Gender = "Male";
+            else
+                Person.Gender = "Female";
+            Person.Location.District = Districttxt.Text;
+            Person.Location.Alley = Alleytxt.Text;
+            Person.Location.House = Housetxt.Text;
+            Person.Email = Emailtxt.Text;
+            Person.Password = Passwordtxt.Text;
+
+
+            
+        }
+
+        private void Passportbtn_Click(object sender, EventArgs e)
+        {
+            using (OpenFileDialog Passport = new OpenFileDialog())
+            {
+                // إعداد الفلاتر لتحديد الملفات المسموح بها
+                Passport.Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp;*.gif";
+                Passport.Title = "Select an Image";
+
+                // عرض مستعرض الملفات
+                if (Passport.ShowDialog() == DialogResult.OK)
+                {
+                    // تخزين مسار الملف المختار في المتغير
+                    Person.PassportPath = Passport.FileName;
+
+                    // عرض المسار في رسالة أو تحديث عنصر واجهة مستخدم
+                    MessageBox.Show($"Image Path: {Person.PassportPath}", "Selected Image");
+                }
+            }
+        }
+
+        private void housingbtn_Click(object sender, EventArgs e)
+        {
+            using (OpenFileDialog ResidenceCard = new OpenFileDialog())
+            {
+                // إعداد الفلاتر لتحديد الملفات المسموح بها
+                ResidenceCard.Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp;*.gif";
+                ResidenceCard.Title = "Select an Image";
+
+                // عرض مستعرض الملفات
+                if (ResidenceCard.ShowDialog() == DialogResult.OK)
+                {
+                    // تخزين مسار الملف المختار في المتغير
+                    Person.ResidenceCardPath = ResidenceCard.FileName;
+
+                    // عرض المسار في رسالة أو تحديث عنصر واجهة مستخدم
+                    MessageBox.Show($"Image Path: {Person.ResidenceCardPath}", "Selected Image");
+                }
+            }
+        }
+
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void guna2Button6_Click(object sender, EventArgs e)
+        {
+           
+        }
     }
 }

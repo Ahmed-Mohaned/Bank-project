@@ -8,12 +8,12 @@ namespace Bank_Mangment_System
 {
     public class Location
     {
-        private int district;
-        private int alley;
-        private int house;
+        private string district;
+        private string alley;
+        private string house;
 
-        public int District { get => district; set => district = value; }
-        public int Alley { get => alley; set => alley = value; }
-        public int House { get => house; set => house = value; }
+        public string District { get => district; set => district = value; }
+        public string Alley { get => alley; set => alley = value; }
+        public string House { get => house; set => house = value; }
     }
 }
