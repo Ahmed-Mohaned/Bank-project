@@ -24,6 +24,9 @@ namespace Bank_Mangment_System
         private string Email;
         private string Password;
         private string Age;
+        private long Balance;
+        private string CardNumber;
+
 
         public MainForm()
         {
@@ -112,12 +115,17 @@ namespace Bank_Mangment_System
             //LoadClientData(searchQuery);
             try
             {
+                if (NamesdataGridView.Columns.Count == 0)
+                {
+                    NamesdataGridView.Columns.Add("First name", "First name");
+                    NamesdataGridView.Columns.Add("Last name", "Last name");
+                }
+
                 string searchName = Searchtxtbox.Text;
                 using (StreamReader sr = new StreamReader(ClientFilePath))
                 {
                     string line;
-                    NamesdataGridView.Columns.Add("First name", "First name");
-                    NamesdataGridView.Columns.Add("Middle name", "Middle name");
+                    NamesdataGridView.Rows.Clear(); // تفريغ الصفوف السابقة
                     while ((line = sr.ReadLine()) != null)
                     {
                         // تقسيم البيانات المحفوظة (التي تم تخزينها باستخدام الفواصل)
@@ -130,6 +138,8 @@ namespace Bank_Mangment_System
                         Location = "District: "+userData[9]+"/"+ "Alley: " + userData[10]+"/"+ "House: " + userData[11];
                         Email = userData[12];
                         Password = userData[13];
+                        Balance = Convert.ToInt64(userData[17]);
+                        CardNumber = userData[18];
                         string FirstName = userData[0];
                         string LastName = userData[1];
                         if(searchName == FirstName)
@@ -164,9 +174,18 @@ namespace Bank_Mangment_System
         private void OpenClientDetailForm(string fullName)
         {
             var clientDetailForm = new ClientDetailForm(FullName, FullMotherName, PhoneNumber
-                                                         , Age, Gender,Location,Email,Password);
+                                                         , Age, Gender,Location,Email,Password,Balance,CardNumber);
             clientDetailForm.Show();
         }
-      
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            SignUpForm signUpForm = new SignUpForm();
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+           
+        }
     }
 }

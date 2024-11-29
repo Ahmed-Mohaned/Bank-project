@@ -129,6 +129,9 @@ namespace Bank_Mangment_System
             Person.Password = Passwordtxt.Text;
             if (EmployeeRbtn.Checked)
                 Person.Employee = true;
+            Person.Balance = 0;
+            Person.CardNumber = Person.GenerateRandomCardNumber(16);
+
             if (capturedImage == null)
             {
                 MessageBox.Show("Please capture an image before signing up.", "Error");
@@ -153,7 +156,7 @@ namespace Bank_Mangment_System
                                       $"{Person.Birth.Day}/{Person.Birth.Month}/{Person.Birth.Year};{Person.Gender};{Person.Location.District};" +
                                       $"{Person.Location.Alley};{Person.Location.House};{Person.Email};{Person.Password};" +
                                       $"{Person.NationalIDCardPath};{Person.PassportPath};{Person.ResidenceCardPath}"+
-                                      $"{(Person.Employee ? "Yes" : "No")};{filePath}";
+                                      $"{(Person.Employee ? "Yes" : "No")};{Person.Balance};{Person.CardNumber};{filePath}";
 
                     sw.WriteLine(userData);
                 }

@@ -41,6 +41,7 @@
             this.Searchtxtbox = new Guna.UI2.WinForms.Guna2TextBox();
             this.NamesdataGridView = new System.Windows.Forms.DataGridView();
             this.Searchbtn = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.panel1.SuspendLayout();
             this.SideBar.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -151,7 +152,7 @@
             this.Searchtxtbox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.Searchtxtbox.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Searchtxtbox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.Searchtxtbox.Location = new System.Drawing.Point(647, 87);
+            this.Searchtxtbox.Location = new System.Drawing.Point(603, 106);
             this.Searchtxtbox.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.Searchtxtbox.Name = "Searchtxtbox";
             this.Searchtxtbox.PasswordChar = '\0';
@@ -164,7 +165,7 @@
             // NamesdataGridView
             // 
             this.NamesdataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.NamesdataGridView.Location = new System.Drawing.Point(647, 182);
+            this.NamesdataGridView.Location = new System.Drawing.Point(603, 200);
             this.NamesdataGridView.Name = "NamesdataGridView";
             this.NamesdataGridView.RowHeadersWidth = 62;
             this.NamesdataGridView.RowTemplate.Height = 28;
@@ -180,18 +181,34 @@
             this.Searchbtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.Searchbtn.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.Searchbtn.ForeColor = System.Drawing.Color.White;
-            this.Searchbtn.Location = new System.Drawing.Point(789, 651);
+            this.Searchbtn.Location = new System.Drawing.Point(355, 622);
             this.Searchbtn.Name = "Searchbtn";
             this.Searchbtn.Size = new System.Drawing.Size(180, 45);
             this.Searchbtn.TabIndex = 4;
             this.Searchbtn.Text = "Search";
             this.Searchbtn.Click += new System.EventHandler(this.Searchbtn_Click);
             // 
+            // guna2Button1
+            // 
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.Location = new System.Drawing.Point(355, 683);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.Size = new System.Drawing.Size(180, 45);
+            this.guna2Button1.TabIndex = 5;
+            this.guna2Button1.Text = "creat clint account";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1917, 1106);
+            this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.Searchbtn);
             this.Controls.Add(this.NamesdataGridView);
             this.Controls.Add(this.Searchtxtbox);
@@ -224,5 +241,6 @@
         private Guna.UI2.WinForms.Guna2TextBox Searchtxtbox;
         private System.Windows.Forms.DataGridView NamesdataGridView;
         private Guna.UI2.WinForms.Guna2Button Searchbtn;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
     }
 }
