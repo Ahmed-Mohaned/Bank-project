@@ -7,12 +7,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
+
 
 namespace Bank_Mangment_System
 {
     public partial class MainForm : Form
     {
+        private string ClientFilePath = Path.Combine(Application.StartupPath, "ClienteData", "ClientData.txt");
         bool SideBarExpand;
+        private string FullName;
+        private string FullMotherName;
+        private string PhoneNumber;
+        private string Gender;
+        private string Location;
+        private string Email;
+        private string Password;
+        private string Age;
+
         public MainForm()
         {
             InitializeComponent();
@@ -22,8 +34,9 @@ namespace Bank_Mangment_System
         {
             this.WindowState = FormWindowState.Maximized;
             SideBar.MinimumSize = new Size(44, 1050);
+            
         }
-
+       
         private void CloseMainFormBtn_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -87,5 +100,73 @@ namespace Bank_Mangment_System
         {
 
         }
+
+        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Searchbtn_Click(object sender, EventArgs e)
+        {
+            //string searchQuery = Searchtxtbox.Text.Trim();
+            //LoadClientData(searchQuery);
+            try
+            {
+                string searchName = Searchtxtbox.Text;
+                using (StreamReader sr = new StreamReader(ClientFilePath))
+                {
+                    string line;
+                    NamesdataGridView.Columns.Add("First name", "First name");
+                    NamesdataGridView.Columns.Add("Middle name", "Middle name");
+                    while ((line = sr.ReadLine()) != null)
+                    {
+                        // تقسيم البيانات المحفوظة (التي تم تخزينها باستخدام الفواصل)
+                        string[] userData = line.Split(';');
+                        FullName = userData[0]+" "+userData[1]+" "+userData[2]+" "+userData[3];
+                        FullMotherName = userData[4]+" "+ userData[5];
+                        PhoneNumber = userData[6];
+                        Age = userData[7];
+                        Gender = userData[8];
+                        Location = "District: "+userData[9]+"/"+ "Alley: " + userData[10]+"/"+ "House: " + userData[11];
+                        Email = userData[12];
+                        Password = userData[13];
+                        string FirstName = userData[0];
+                        string LastName = userData[1];
+                        if(searchName == FirstName)
+                            NamesdataGridView.Rows.Add(FirstName, LastName);
+
+
+
+
+
+                    }
+
+
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error : {ex.Message}", "Error");
+            }
+        }
+
+        
+
+       private void NamesdataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+                string fullName = NamesdataGridView.Rows[e.RowIndex].Cells[0].Value.ToString();
+                OpenClientDetailForm(fullName);
+            }
+        }
+
+        private void OpenClientDetailForm(string fullName)
+        {
+            var clientDetailForm = new ClientDetailForm(FullName, FullMotherName, PhoneNumber
+                                                         , Age, Gender,Location,Email,Password);
+            clientDetailForm.Show();
+        }
+      
     }
 }

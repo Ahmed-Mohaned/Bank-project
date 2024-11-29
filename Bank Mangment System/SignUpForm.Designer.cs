@@ -57,13 +57,13 @@
             this.Housetxt = new Guna.UI2.WinForms.Guna2TextBox();
             this.Passwordtxt = new Guna.UI2.WinForms.Guna2TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.Signupbtn = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.Camerapicbox = new System.Windows.Forms.PictureBox();
-            this.Signupbtn = new Guna.UI2.WinForms.Guna2Button();
             this.panel1.SuspendLayout();
             this.PesonalInfosGB.SuspendLayout();
             this.LocationandAccountinfosGB.SuspendLayout();
@@ -504,7 +504,7 @@
             this.Alleytxt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.Alleytxt.FillColor = System.Drawing.Color.MediumSeaGreen;
             this.Alleytxt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.Alleytxt.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Alleytxt.Font = new System.Drawing.Font("Century Gothic", 12F);
             this.Alleytxt.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.Alleytxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.Alleytxt.Location = new System.Drawing.Point(24, 153);
@@ -635,6 +635,24 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Photo";
             // 
+            // Signupbtn
+            // 
+            this.Signupbtn.BackColor = System.Drawing.Color.Transparent;
+            this.Signupbtn.BorderRadius = 13;
+            this.Signupbtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Signupbtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Signupbtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Signupbtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Signupbtn.FillColor = System.Drawing.Color.MediumAquamarine;
+            this.Signupbtn.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.Signupbtn.ForeColor = System.Drawing.Color.White;
+            this.Signupbtn.Location = new System.Drawing.Point(6, 893);
+            this.Signupbtn.Name = "Signupbtn";
+            this.Signupbtn.Size = new System.Drawing.Size(860, 55);
+            this.Signupbtn.TabIndex = 28;
+            this.Signupbtn.Text = "Sign up";
+            this.Signupbtn.Click += new System.EventHandler(this.guna2Button7_Click);
+            // 
             // guna2Button1
             // 
             this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
@@ -724,24 +742,6 @@
             this.Camerapicbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Camerapicbox.TabIndex = 0;
             this.Camerapicbox.TabStop = false;
-            // 
-            // Signupbtn
-            // 
-            this.Signupbtn.BackColor = System.Drawing.Color.Transparent;
-            this.Signupbtn.BorderRadius = 13;
-            this.Signupbtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.Signupbtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.Signupbtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.Signupbtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.Signupbtn.FillColor = System.Drawing.Color.MediumAquamarine;
-            this.Signupbtn.Font = new System.Drawing.Font("Century Gothic", 12F);
-            this.Signupbtn.ForeColor = System.Drawing.Color.White;
-            this.Signupbtn.Location = new System.Drawing.Point(6, 893);
-            this.Signupbtn.Name = "Signupbtn";
-            this.Signupbtn.Size = new System.Drawing.Size(860, 55);
-            this.Signupbtn.TabIndex = 28;
-            this.Signupbtn.Text = "Sign up";
-            this.Signupbtn.Click += new System.EventHandler(this.guna2Button7_Click);
             // 
             // SignUpForm
             // 

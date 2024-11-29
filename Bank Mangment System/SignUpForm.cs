@@ -149,9 +149,10 @@ namespace Bank_Mangment_System
                
                 using (StreamWriter sw = new StreamWriter(infoFilePath, true))
                 {
-                    string userData = $"{Person.Name.First};{Person.Name.Last};{Person.MotherName.First};{Person.MotherName.Last};{Person.PhoneNumber};" +
+                    string userData = $"{Person.Name.First};{Person.Name.Middle};{Person.Name.Last};{Person.Name.Family};{Person.MotherName.First};{Person.MotherName.Last};{Person.PhoneNumber};" +
                                       $"{Person.Birth.Day}/{Person.Birth.Month}/{Person.Birth.Year};{Person.Gender};{Person.Location.District};" +
                                       $"{Person.Location.Alley};{Person.Location.House};{Person.Email};{Person.Password};" +
+                                      $"{Person.NationalIDCardPath};{Person.PassportPath};{Person.ResidenceCardPath}"+
                                       $"{(Person.Employee ? "Yes" : "No")};{filePath}";
 
                     sw.WriteLine(userData);
