@@ -28,142 +28,588 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ClientDetailForm));
+            this.SideBar = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.Menulabel = new System.Windows.Forms.Label();
+            this.MenuButton = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.MinClientDetailsBtn = new System.Windows.Forms.Button();
+            this.CloseClientDetailsBtn = new System.Windows.Forms.Button();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.FullNametxt = new Guna.UI2.WinForms.Guna2TextBox();
+            this.MotherNametxt = new Guna.UI2.WinForms.Guna2TextBox();
+            this.PhoneNumbertxt = new Guna.UI2.WinForms.Guna2TextBox();
+            this.Gendertxt = new Guna.UI2.WinForms.Guna2TextBox();
+            this.Locationtxt = new Guna.UI2.WinForms.Guna2TextBox();
+            this.Emailtxt = new Guna.UI2.WinForms.Guna2TextBox();
+            this.Agetxt = new Guna.UI2.WinForms.Guna2TextBox();
+            this.Balancetxt = new Guna.UI2.WinForms.Guna2TextBox();
+            this.CardNumbertxt = new Guna.UI2.WinForms.Guna2TextBox();
+            this.SideBarTimer = new System.Windows.Forms.Timer(this.components);
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
+            this.SideBar.SuspendLayout();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.MenuButton)).BeginInit();
+            this.panel1.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label1
+            // SideBar
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(51, 20);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.SideBar.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.SideBar.Controls.Add(this.panel3);
+            this.SideBar.Location = new System.Drawing.Point(0, 0);
+            this.SideBar.MaximumSize = new System.Drawing.Size(203, 1129);
+            this.SideBar.MinimumSize = new System.Drawing.Size(70, 1200);
+            this.SideBar.Name = "SideBar";
+            this.SideBar.Size = new System.Drawing.Size(203, 1200);
+            this.SideBar.TabIndex = 11;
             // 
-            // label2
+            // panel3
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 44);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(51, 20);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "label2";
+            this.panel3.Controls.Add(this.Menulabel);
+            this.panel3.Controls.Add(this.MenuButton);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(203, 80);
+            this.panel3.TabIndex = 0;
             // 
-            // label3
+            // Menulabel
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 78);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(51, 20);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "label3";
+            this.Menulabel.AutoSize = true;
+            this.Menulabel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Menulabel.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Menulabel.ForeColor = System.Drawing.Color.White;
+            this.Menulabel.Location = new System.Drawing.Point(67, 29);
+            this.Menulabel.Name = "Menulabel";
+            this.Menulabel.Size = new System.Drawing.Size(65, 23);
+            this.Menulabel.TabIndex = 1;
+            this.Menulabel.Text = "Menu";
             // 
-            // label4
+            // MenuButton
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 111);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(51, 20);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "label4";
+            this.MenuButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.MenuButton.Image = ((System.Drawing.Image)(resources.GetObject("MenuButton.Image")));
+            this.MenuButton.Location = new System.Drawing.Point(9, 20);
+            this.MenuButton.Name = "MenuButton";
+            this.MenuButton.Size = new System.Drawing.Size(52, 41);
+            this.MenuButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.MenuButton.TabIndex = 0;
+            this.MenuButton.TabStop = false;
+            this.MenuButton.Click += new System.EventHandler(this.MenuButton_Click);
             // 
-            // label5
+            // panel1
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 149);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(51, 20);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "label5";
+            this.panel1.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.panel1.Controls.Add(this.MinClientDetailsBtn);
+            this.panel1.Controls.Add(this.CloseClientDetailsBtn);
+            this.panel1.Location = new System.Drawing.Point(202, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1889, 55);
+            this.panel1.TabIndex = 12;
             // 
-            // label6
+            // MinClientDetailsBtn
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(12, 187);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(51, 20);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "label6";
+            this.MinClientDetailsBtn.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.MinClientDetailsBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.MinClientDetailsBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MinClientDetailsBtn.ForeColor = System.Drawing.Color.White;
+            this.MinClientDetailsBtn.Location = new System.Drawing.Point(1614, 5);
+            this.MinClientDetailsBtn.Name = "MinClientDetailsBtn";
+            this.MinClientDetailsBtn.Size = new System.Drawing.Size(36, 43);
+            this.MinClientDetailsBtn.TabIndex = 14;
+            this.MinClientDetailsBtn.Text = "-";
+            this.MinClientDetailsBtn.UseVisualStyleBackColor = false;
             // 
-            // label7
+            // CloseClientDetailsBtn
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(12, 232);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(51, 20);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "label7";
+            this.CloseClientDetailsBtn.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.CloseClientDetailsBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.CloseClientDetailsBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CloseClientDetailsBtn.ForeColor = System.Drawing.Color.White;
+            this.CloseClientDetailsBtn.Location = new System.Drawing.Point(1656, 5);
+            this.CloseClientDetailsBtn.Name = "CloseClientDetailsBtn";
+            this.CloseClientDetailsBtn.Size = new System.Drawing.Size(36, 43);
+            this.CloseClientDetailsBtn.TabIndex = 13;
+            this.CloseClientDetailsBtn.Text = "X";
+            this.CloseClientDetailsBtn.UseVisualStyleBackColor = false;
+            this.CloseClientDetailsBtn.Click += new System.EventHandler(this.CloseSignupBtn_Click);
             // 
-            // label8
+            // label11
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(12, 268);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(51, 20);
-            this.label8.TabIndex = 7;
-            this.label8.Text = "label8";
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(33, 36);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(120, 23);
+            this.label11.TabIndex = 13;
+            this.label11.Text = "Full Name :";
             // 
-            // label9
+            // label12
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(12, 302);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(51, 20);
-            this.label9.TabIndex = 8;
-            this.label9.Text = "label9";
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(33, 141);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(156, 23);
+            this.label12.TabIndex = 14;
+            this.label12.Text = "Mother Name :";
             // 
-            // label10
+            // label13
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(12, 333);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(60, 20);
-            this.label10.TabIndex = 9;
-            this.label10.Text = "label10";
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(33, 248);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(167, 23);
+            this.label13.TabIndex = 15;
+            this.label13.Text = "Phone Number :";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(33, 359);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(96, 23);
+            this.label14.TabIndex = 16;
+            this.label14.Text = "Gender :";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(33, 464);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(106, 23);
+            this.label15.TabIndex = 17;
+            this.label15.Text = "Location :";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(39, 572);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(74, 23);
+            this.label16.TabIndex = 18;
+            this.label16.Text = "Email :";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(39, 689);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(63, 23);
+            this.label18.TabIndex = 20;
+            this.label18.Text = "Age :";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(39, 798);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(103, 23);
+            this.label19.TabIndex = 21;
+            this.label19.Text = "Balance :";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(33, 898);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(154, 23);
+            this.label20.TabIndex = 22;
+            this.label20.Text = "Card Number :";
+            // 
+            // FullNametxt
+            // 
+            this.FullNametxt.BorderRadius = 13;
+            this.FullNametxt.BorderThickness = 0;
+            this.FullNametxt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.FullNametxt.DefaultText = "";
+            this.FullNametxt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.FullNametxt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.FullNametxt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.FullNametxt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.FullNametxt.FillColor = System.Drawing.Color.MediumSeaGreen;
+            this.FullNametxt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.FullNametxt.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.FullNametxt.ForeColor = System.Drawing.Color.White;
+            this.FullNametxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.FullNametxt.Location = new System.Drawing.Point(232, 22);
+            this.FullNametxt.Margin = new System.Windows.Forms.Padding(5);
+            this.FullNametxt.Name = "FullNametxt";
+            this.FullNametxt.PasswordChar = '\0';
+            this.FullNametxt.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.FullNametxt.PlaceholderText = "";
+            this.FullNametxt.SelectedText = "";
+            this.FullNametxt.Size = new System.Drawing.Size(444, 55);
+            this.FullNametxt.TabIndex = 23;
+            // 
+            // MotherNametxt
+            // 
+            this.MotherNametxt.BorderRadius = 13;
+            this.MotherNametxt.BorderThickness = 0;
+            this.MotherNametxt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.MotherNametxt.DefaultText = "";
+            this.MotherNametxt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.MotherNametxt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.MotherNametxt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.MotherNametxt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.MotherNametxt.FillColor = System.Drawing.Color.MediumSeaGreen;
+            this.MotherNametxt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.MotherNametxt.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.MotherNametxt.ForeColor = System.Drawing.Color.White;
+            this.MotherNametxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.MotherNametxt.Location = new System.Drawing.Point(232, 120);
+            this.MotherNametxt.Margin = new System.Windows.Forms.Padding(5);
+            this.MotherNametxt.Name = "MotherNametxt";
+            this.MotherNametxt.PasswordChar = '\0';
+            this.MotherNametxt.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.MotherNametxt.PlaceholderText = "";
+            this.MotherNametxt.SelectedText = "";
+            this.MotherNametxt.Size = new System.Drawing.Size(444, 55);
+            this.MotherNametxt.TabIndex = 24;
+            // 
+            // PhoneNumbertxt
+            // 
+            this.PhoneNumbertxt.BorderRadius = 13;
+            this.PhoneNumbertxt.BorderThickness = 0;
+            this.PhoneNumbertxt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.PhoneNumbertxt.DefaultText = "";
+            this.PhoneNumbertxt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.PhoneNumbertxt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.PhoneNumbertxt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.PhoneNumbertxt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.PhoneNumbertxt.FillColor = System.Drawing.Color.MediumSeaGreen;
+            this.PhoneNumbertxt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.PhoneNumbertxt.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.PhoneNumbertxt.ForeColor = System.Drawing.Color.White;
+            this.PhoneNumbertxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.PhoneNumbertxt.Location = new System.Drawing.Point(232, 228);
+            this.PhoneNumbertxt.Margin = new System.Windows.Forms.Padding(5);
+            this.PhoneNumbertxt.Name = "PhoneNumbertxt";
+            this.PhoneNumbertxt.PasswordChar = '\0';
+            this.PhoneNumbertxt.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.PhoneNumbertxt.PlaceholderText = "";
+            this.PhoneNumbertxt.SelectedText = "";
+            this.PhoneNumbertxt.Size = new System.Drawing.Size(444, 55);
+            this.PhoneNumbertxt.TabIndex = 25;
+            // 
+            // Gendertxt
+            // 
+            this.Gendertxt.BorderRadius = 13;
+            this.Gendertxt.BorderThickness = 0;
+            this.Gendertxt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Gendertxt.DefaultText = "";
+            this.Gendertxt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.Gendertxt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.Gendertxt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Gendertxt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Gendertxt.FillColor = System.Drawing.Color.MediumSeaGreen;
+            this.Gendertxt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Gendertxt.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.Gendertxt.ForeColor = System.Drawing.Color.White;
+            this.Gendertxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Gendertxt.Location = new System.Drawing.Point(232, 342);
+            this.Gendertxt.Margin = new System.Windows.Forms.Padding(5);
+            this.Gendertxt.Name = "Gendertxt";
+            this.Gendertxt.PasswordChar = '\0';
+            this.Gendertxt.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.Gendertxt.PlaceholderText = "";
+            this.Gendertxt.SelectedText = "";
+            this.Gendertxt.Size = new System.Drawing.Size(444, 55);
+            this.Gendertxt.TabIndex = 26;
+            // 
+            // Locationtxt
+            // 
+            this.Locationtxt.BorderRadius = 13;
+            this.Locationtxt.BorderThickness = 0;
+            this.Locationtxt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Locationtxt.DefaultText = "";
+            this.Locationtxt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.Locationtxt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.Locationtxt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Locationtxt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Locationtxt.FillColor = System.Drawing.Color.MediumSeaGreen;
+            this.Locationtxt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Locationtxt.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.Locationtxt.ForeColor = System.Drawing.Color.White;
+            this.Locationtxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Locationtxt.Location = new System.Drawing.Point(232, 446);
+            this.Locationtxt.Margin = new System.Windows.Forms.Padding(5);
+            this.Locationtxt.Name = "Locationtxt";
+            this.Locationtxt.PasswordChar = '\0';
+            this.Locationtxt.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.Locationtxt.PlaceholderText = "";
+            this.Locationtxt.SelectedText = "";
+            this.Locationtxt.Size = new System.Drawing.Size(444, 55);
+            this.Locationtxt.TabIndex = 27;
+            this.Locationtxt.TextChanged += new System.EventHandler(this.Locationtxt_TextChanged);
+            // 
+            // Emailtxt
+            // 
+            this.Emailtxt.BorderRadius = 13;
+            this.Emailtxt.BorderThickness = 0;
+            this.Emailtxt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Emailtxt.DefaultText = "";
+            this.Emailtxt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.Emailtxt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.Emailtxt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Emailtxt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Emailtxt.FillColor = System.Drawing.Color.MediumSeaGreen;
+            this.Emailtxt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Emailtxt.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.Emailtxt.ForeColor = System.Drawing.Color.White;
+            this.Emailtxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Emailtxt.Location = new System.Drawing.Point(232, 556);
+            this.Emailtxt.Margin = new System.Windows.Forms.Padding(5);
+            this.Emailtxt.Name = "Emailtxt";
+            this.Emailtxt.PasswordChar = '\0';
+            this.Emailtxt.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.Emailtxt.PlaceholderText = "";
+            this.Emailtxt.SelectedText = "";
+            this.Emailtxt.Size = new System.Drawing.Size(444, 55);
+            this.Emailtxt.TabIndex = 28;
+            // 
+            // Agetxt
+            // 
+            this.Agetxt.BorderRadius = 13;
+            this.Agetxt.BorderThickness = 0;
+            this.Agetxt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Agetxt.DefaultText = "";
+            this.Agetxt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.Agetxt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.Agetxt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Agetxt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Agetxt.FillColor = System.Drawing.Color.MediumSeaGreen;
+            this.Agetxt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Agetxt.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.Agetxt.ForeColor = System.Drawing.Color.White;
+            this.Agetxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Agetxt.Location = new System.Drawing.Point(232, 657);
+            this.Agetxt.Margin = new System.Windows.Forms.Padding(5);
+            this.Agetxt.Name = "Agetxt";
+            this.Agetxt.PasswordChar = '\0';
+            this.Agetxt.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.Agetxt.PlaceholderText = "";
+            this.Agetxt.SelectedText = "";
+            this.Agetxt.Size = new System.Drawing.Size(444, 55);
+            this.Agetxt.TabIndex = 29;
+            // 
+            // Balancetxt
+            // 
+            this.Balancetxt.BorderRadius = 13;
+            this.Balancetxt.BorderThickness = 0;
+            this.Balancetxt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Balancetxt.DefaultText = "";
+            this.Balancetxt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.Balancetxt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.Balancetxt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Balancetxt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Balancetxt.FillColor = System.Drawing.Color.MediumSeaGreen;
+            this.Balancetxt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Balancetxt.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.Balancetxt.ForeColor = System.Drawing.Color.White;
+            this.Balancetxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Balancetxt.Location = new System.Drawing.Point(232, 776);
+            this.Balancetxt.Margin = new System.Windows.Forms.Padding(5);
+            this.Balancetxt.Name = "Balancetxt";
+            this.Balancetxt.PasswordChar = '\0';
+            this.Balancetxt.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.Balancetxt.PlaceholderText = "";
+            this.Balancetxt.SelectedText = "";
+            this.Balancetxt.Size = new System.Drawing.Size(444, 55);
+            this.Balancetxt.TabIndex = 30;
+            // 
+            // CardNumbertxt
+            // 
+            this.CardNumbertxt.BorderRadius = 13;
+            this.CardNumbertxt.BorderThickness = 0;
+            this.CardNumbertxt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.CardNumbertxt.DefaultText = "";
+            this.CardNumbertxt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.CardNumbertxt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.CardNumbertxt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.CardNumbertxt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.CardNumbertxt.FillColor = System.Drawing.Color.MediumSeaGreen;
+            this.CardNumbertxt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.CardNumbertxt.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.CardNumbertxt.ForeColor = System.Drawing.Color.White;
+            this.CardNumbertxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.CardNumbertxt.Location = new System.Drawing.Point(232, 877);
+            this.CardNumbertxt.Margin = new System.Windows.Forms.Padding(5);
+            this.CardNumbertxt.Name = "CardNumbertxt";
+            this.CardNumbertxt.PasswordChar = '\0';
+            this.CardNumbertxt.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.CardNumbertxt.PlaceholderText = "";
+            this.CardNumbertxt.SelectedText = "";
+            this.CardNumbertxt.Size = new System.Drawing.Size(444, 55);
+            this.CardNumbertxt.TabIndex = 31;
+            // 
+            // SideBarTimer
+            // 
+            this.SideBarTimer.Interval = 10;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.label11);
+            this.groupBox1.Controls.Add(this.CardNumbertxt);
+            this.groupBox1.Controls.Add(this.label12);
+            this.groupBox1.Controls.Add(this.Balancetxt);
+            this.groupBox1.Controls.Add(this.label13);
+            this.groupBox1.Controls.Add(this.Agetxt);
+            this.groupBox1.Controls.Add(this.label14);
+            this.groupBox1.Controls.Add(this.Emailtxt);
+            this.groupBox1.Controls.Add(this.label15);
+            this.groupBox1.Controls.Add(this.Locationtxt);
+            this.groupBox1.Controls.Add(this.label16);
+            this.groupBox1.Controls.Add(this.Gendertxt);
+            this.groupBox1.Controls.Add(this.label18);
+            this.groupBox1.Controls.Add(this.PhoneNumbertxt);
+            this.groupBox1.Controls.Add(this.label19);
+            this.groupBox1.Controls.Add(this.MotherNametxt);
+            this.groupBox1.Controls.Add(this.label20);
+            this.groupBox1.Controls.Add(this.FullNametxt);
+            this.groupBox1.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Location = new System.Drawing.Point(209, 61);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(749, 1018);
+            this.groupBox1.TabIndex = 32;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "All Informations";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.guna2Button3);
+            this.groupBox2.Controls.Add(this.guna2Button2);
+            this.groupBox2.Controls.Add(this.guna2Button1);
+            this.groupBox2.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Location = new System.Drawing.Point(989, 61);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(749, 1018);
+            this.groupBox2.TabIndex = 33;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "All Informations";
+            // 
+            // guna2Button1
+            // 
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.Location = new System.Drawing.Point(156, 119);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.Size = new System.Drawing.Size(180, 45);
+            this.guna2Button1.TabIndex = 0;
+            this.guna2Button1.Text = "ايداع";
+            // 
+            // guna2Button2
+            // 
+            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button2.ForeColor = System.Drawing.Color.White;
+            this.guna2Button2.Location = new System.Drawing.Point(156, 193);
+            this.guna2Button2.Name = "guna2Button2";
+            this.guna2Button2.Size = new System.Drawing.Size(180, 45);
+            this.guna2Button2.TabIndex = 1;
+            this.guna2Button2.Text = "سحب";
+            // 
+            // guna2Button3
+            // 
+            this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button3.ForeColor = System.Drawing.Color.White;
+            this.guna2Button3.Location = new System.Drawing.Point(156, 272);
+            this.guna2Button3.Name = "guna2Button3";
+            this.guna2Button3.Size = new System.Drawing.Size(180, 45);
+            this.guna2Button3.TabIndex = 2;
+            this.guna2Button3.Text = "تحويل";
             // 
             // ClientDetailForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(1898, 1106);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.SideBar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ClientDetailForm";
             this.Text = "ClientDetailForm";
             this.Load += new System.EventHandler(this.ClientDetailForm_Load);
+            this.SideBar.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.MenuButton)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Panel SideBar;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label Menulabel;
+        private System.Windows.Forms.PictureBox MenuButton;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button CloseClientDetailsBtn;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label20;
+        private Guna.UI2.WinForms.Guna2TextBox FullNametxt;
+        private Guna.UI2.WinForms.Guna2TextBox MotherNametxt;
+        private Guna.UI2.WinForms.Guna2TextBox PhoneNumbertxt;
+        private Guna.UI2.WinForms.Guna2TextBox Gendertxt;
+        private Guna.UI2.WinForms.Guna2TextBox Locationtxt;
+        private Guna.UI2.WinForms.Guna2TextBox Emailtxt;
+        private Guna.UI2.WinForms.Guna2TextBox Agetxt;
+        private Guna.UI2.WinForms.Guna2TextBox Balancetxt;
+        private Guna.UI2.WinForms.Guna2TextBox CardNumbertxt;
+        private System.Windows.Forms.Button MinClientDetailsBtn;
+        private System.Windows.Forms.Timer SideBarTimer;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private Guna.UI2.WinForms.Guna2Button guna2Button3;
+        private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
     }
 }

@@ -1,0 +1,1 @@
+Ahmed;Mohuned;Sabah;qqq;xxx;xxx;1234;2/4/2003;Male;1;1;1;A;A;C:\Users\Study\Desktop\photo_2024-11-17_18-41-51.jpg;C:\Users\Study\Desktop\photo_2024-11-17_18-42-02.jpg;C:\Users\Study\Desktop\photo_2024-11-17_18-54-29.jpgNo;0;0643425688209055;C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Release\ClienteData\Ahmed_Sabah.jpg

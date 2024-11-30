@@ -14,6 +14,7 @@ namespace Bank_Mangment_System
 {
     public partial class ClientDetailForm : Form
     {
+        bool SideBarExpand;
         private string FullName;
         private string FullMotherName;
         private string PhoneNumber;
@@ -45,17 +46,73 @@ namespace Bank_Mangment_System
 
         private void ClientDetailForm_Load(object sender, EventArgs e)
         {
-            label1.Text = FullName;
-            label2.Text = FullMotherName;
-            label3.Text = PhoneNumber;
-            label4.Text = Gender;
-            label5.Text = Location;
-            label6.Text = Email;
-            label7.Text = Password;
-            label8.Text = Age;
-            label9.Text = Balance.ToString();
-            label10.Text = CardNumber;
+            this.WindowState = FormWindowState.Maximized;
+            SideBar.MinimumSize = new Size(44, 1050);
+            FullNametxt.Text = FullName;
+            MotherNametxt.Text = FullMotherName;
+            PhoneNumbertxt.Text = PhoneNumber;
+            Gendertxt.Text = Gender;
+            Locationtxt.Text = Location;
+            Emailtxt.Text = Email;
+            Agetxt.Text = Age;
+           Balancetxt.Text = Balance.ToString();
+            CardNumbertxt.Text = CardNumber;
+
+
+
+        }
+
+        private void CloseMainFormBtn_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void MinMainFormBtn_Click(object sender, EventArgs e)
+        {
             
+        }
+
+        private void MinSignupBtn_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void CloseSignupBtn_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            
+        }
+
+        private void Locationtxt_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        private void SideBarTimer_Tick(object sender, EventArgs e)
+        {
+            // Set The minimize and maximize of sidebar;
+            if (SideBarExpand)
+            {
+                // if side bar is expand then minimize;
+                SideBar.Width -= 10;
+                if (SideBar.Width == SideBar.MinimumSize.Width)
+                {
+                    SideBarExpand = false;
+                    SideBarTimer.Stop();
+                }
+            }
+            else
+            {
+                SideBar.Width += 10;
+                if (SideBar.Width == SideBar.MaximumSize.Width)
+                {
+                    SideBarExpand = true;
+                    SideBarTimer.Stop();
+                }
+            }
+        }
+        private void MenuButton_Click(object sender, EventArgs e)
+        {
+            SideBarTimer.Start();
         }
     }
 }

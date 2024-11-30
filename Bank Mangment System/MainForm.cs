@@ -38,8 +38,10 @@ namespace Bank_Mangment_System
             this.WindowState = FormWindowState.Maximized;
             SideBar.MinimumSize = new Size(44, 1050);
             
+
+
         }
-       
+
         private void CloseMainFormBtn_Click(object sender, EventArgs e)
         {
             this.Close();

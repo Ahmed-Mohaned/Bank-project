@@ -39,6 +39,7 @@ namespace Bank_Mangment_System
         public string Photo { get => photo; set => photo = value; }
         public long Balance { get => balance; set => balance = value; }
         public string CardNumber { get => cardNumber; set => cardNumber = value; }
+      
 
         public string GenerateRandomCardNumber(int length)
         {
