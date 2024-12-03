@@ -1,1 +1,0 @@
-Ahmed;Mohuned;Sabah;Alkhafaji;X;Hussien;1234;2/4/2003;Male;1;1;1;aaaaa@gmail.com;aaaaa;C:\Users\Study\Desktop\photo_2024-11-17_18-41-51.jpg;C:\Users\Study\Desktop\photo_2024-11-17_18-42-02.jpg;C:\Users\Study\Desktop\photo_2024-11-17_18-54-29.jpgYes;C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\EmployeeData\Ahmed_Sabah.jpg
