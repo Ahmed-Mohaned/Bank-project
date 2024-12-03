@@ -62,19 +62,55 @@ namespace Bank_Mangment_System
                 File.Create(transactionsFilePath).Close();
             }
         }
-        private void AddTransaction(string transactionType, decimal amount)
+        private void AddTransaction(string description, decimal amount)
         {
-            try
-            {
-                string transaction = $"{DateTime.Now};{transactionType};{amount};{Balance}";
-                File.AppendAllText(transactionsFilePath, transaction + Environment.NewLine);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Error adding transaction: {ex.Message}", "Error");
-            }
+
+            string transaction = $"{DateTime.Now};{description};{amount};{Balance}";
+            File.AppendAllLines(transactionsFilePath, new[] { transaction });
+
         }
-       
+
+        private bool PerformTransfer(string senderCardNumber, string recipientCardNumber, decimal amount)
+        {
+            string[] clientLines = File.ReadAllLines(ClientFilePath);
+            bool recipientFound = false;
+
+            for (int i = 0; i < clientLines.Length; i++)
+            {
+                string[] userData = clientLines[i].Split(';');
+
+                if (userData[18] == recipientCardNumber)
+                {
+                    // تحديث رصيد المرسل
+                    Balance -= amount;
+                    Balancetxt.Text = Balance.ToString();
+
+                    // تحديث رصيد المستقبل
+                    decimal recipientBalance = Convert.ToDecimal(userData[17]) + amount;
+                    userData[17] = recipientBalance.ToString();
+
+                    // تحديث السطر في الملف
+                    clientLines[i] = string.Join(";", userData);
+
+                    recipientFound = true;
+                    break;
+                }
+            }
+
+            if (recipientFound)
+            {
+                // تحديث الملف بالكامل
+                File.WriteAllLines(ClientFilePath, clientLines);
+
+                // تسجيل المعاملات
+                AddTransaction($"Transfer to {recipientCardNumber}", amount);
+                AddTransaction($"Transfer from {senderCardNumber}", amount);
+            }
+
+            return recipientFound;
+        }
+
+
         private void ClientDetailForm_Load(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Maximized;
@@ -214,45 +250,28 @@ namespace Bank_Mangment_System
             {
                 string recipientCardNumber = RecipientTextBox.Text;
 
-                // التحقق من رصيد المرسل
+                // التحقق من الحقول الفارغة
+                if (string.IsNullOrWhiteSpace(recipientCardNumber))
+                {
+                    MessageBox.Show("Recipient card number cannot be empty", "Error");
+                    return;
+                }
+
+                // التحقق من الرصيد
                 if (amount > Balance)
                 {
                     MessageBox.Show("Insufficient balance", "Error");
                     return;
                 }
 
-                // البحث عن المستقبل في ملف العملاء
-                bool recipientFound = false;
-                string[] clientLines = File.ReadAllLines(ClientFilePath);
+                // البحث عن المستقبل وتحديث الرصيد
+                bool transferSuccessful = PerformTransfer(CardNumber, recipientCardNumber, amount);
 
-                foreach (var line in clientLines)
+                if (transferSuccessful)
                 {
-                    string[] userData = line.Split(';');
-
-                    // افتراض أن رقم البطاقة هو العنصر الأخير قبل المسار
-                    if (userData[18] == recipientCardNumber)
-                    {
-                        // خصم المبلغ من المرسل
-                        Balance -= amount;
-                        Balancetxt.Text = Balance.ToString();
-
-                        // إضافة المعاملات للمرسل
-                        AddTransaction($"Transfer to {recipientCardNumber}", amount);
-
-                        // تحديث رصيد المستقبل (سيحتاج تعديل على ملف العملاء)
-                        decimal recipientBalance = Convert.ToDecimal(userData[17]) + amount;
-
-                        // تحديث الملف (هذا مثال بسيط، قد يحتاج لمعالجة أكثر تعقيدًا)
-                        UpdateClientBalance(recipientCardNumber, recipientBalance);
-                        UpdateClientBalance(CardNumber, Balance);
-
-                        MessageBox.Show("Transfer successful!", "Success");
-                        recipientFound = true;
-                        break;
-                    }
+                    MessageBox.Show("Transfer successful!", "Success");
                 }
-
-                if (!recipientFound)
+                else
                 {
                     MessageBox.Show("Recipient card number not found", "Error");
                 }
@@ -317,6 +336,23 @@ namespace Bank_Mangment_System
             else
             {
                 MessageBox.Show("Invalid amount", "Error");
+            }
+        }
+
+        private void guna2Button7_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                // قراءة المعاملات من الملف
+                string[] transactions = File.ReadAllLines(transactionsFilePath);
+
+                // فتح نموذج المعاملات وتمرير المعاملات إليه
+                TransactionsData transactionsForm = new TransactionsData(transactions);
+                transactionsForm.ShowDialog();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error loading transactions: {ex.Message}", "Error");
             }
         }
     }

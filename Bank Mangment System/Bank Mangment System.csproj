@@ -158,6 +158,12 @@
     <Compile Include="SignUpForm.Designer.cs">
       <DependentUpon>SignUpForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="TransactionsData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransactionsData.Designer.cs">
+      <DependentUpon>TransactionsData.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="..\..\..\..\..\Desktop\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
       <Link>LoginForm.resx</Link>
@@ -179,6 +185,9 @@
     </Compile>
     <EmbeddedResource Include="SignUpForm.resx">
       <DependentUpon>SignUpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransactionsData.resx">
+      <DependentUpon>TransactionsData.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

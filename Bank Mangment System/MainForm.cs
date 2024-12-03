@@ -113,7 +113,22 @@ namespace Bank_Mangment_System
         {
 
         }
-
+        private void SetClientData(string[] userData)
+        {
+            FullName = userData[0] + " " + userData[1] + " " + userData[2] + " " + userData[3];
+            FullMotherName = userData[4] + " " + userData[5];
+            PhoneNumber = userData[6];
+            Age = userData[7];
+            Gender = userData[8];
+            Location = "District: " + userData[9] + "/" + "Alley: " + userData[10] + "/" + "House: " + userData[11];
+            Email = userData[12];
+            Password = userData[13];
+            NationalIDCardPath = userData[14];
+            PassportPath = userData[15];
+            ResidenceCardPath = userData[16];
+            Balance = Convert.ToDecimal(userData[17]);
+            CardNumber = userData[18];
+        }
         private void Searchbtn_Click(object sender, EventArgs e)
         {
             //string searchQuery = Searchtxtbox.Text.Trim();
@@ -140,19 +155,7 @@ namespace Bank_Mangment_System
                         // البحث في الاسم الأول والأخير
                         if (FirstName.Contains(searchName) || LastName.Contains(searchName))
                         {
-                            FullName = FirstName + " " + LastName + " " + userData[2] + " " + userData[3];
-                            FullMotherName = userData[4] + " " + userData[5];
-                            PhoneNumber = userData[6];
-                            Age = userData[7];
-                            Gender = userData[8];
-                            Location = "District: " + userData[9] + "/" + "Alley: " + userData[10] + "/" + "House: " + userData[11];
-                            Email = userData[12];
-                            Password = userData[13];
-                            NationalIDCardPath = userData[14];
-                            PassportPath = userData[15];
-                            ResidenceCardPath = userData[16];
-                            Balance = Convert.ToDecimal(userData[17]);
-                            CardNumber = userData[18];
+                            SetClientData(userData);
 
                             NamesdataGridView.Rows.Add(FirstName, LastName);
                         }
@@ -170,6 +173,7 @@ namespace Bank_Mangment_System
             }
         }
 
+      
 
 
         private void NamesdataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -188,19 +192,7 @@ namespace Bank_Mangment_System
                         string[] userData = line.Split(';');
                         if (userData[0] == firstName && userData[1] == lastName)
                         {
-                            FullName = userData[0] + " " + userData[1] + " " + userData[2] + " " + userData[3];
-                            FullMotherName = userData[4] + " " + userData[5];
-                            PhoneNumber = userData[6];
-                            Age = userData[7];
-                            Gender = userData[8];
-                            Location = "District: " + userData[9] + "/" + "Alley: " + userData[10] + "/" + "House: " + userData[11];
-                            Email = userData[12];
-                            Password = userData[13];
-                            NationalIDCardPath = userData[14];
-                            PassportPath = userData[15];
-                            ResidenceCardPath = userData[16];
-                            Balance = Convert.ToDecimal(userData[17]);
-                            CardNumber = userData[18];
+                            SetClientData(userData);
 
                             OpenClientDetailForm(FullName);
                             break;

@@ -52,3 +52,4 @@ C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangm
 C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\AForge.Video.DirectShow.xml
 C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\obj\Debug\Bank_Mangment_System.MainForm.resources
 C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\obj\Debug\Bank_Mangment_System.ClientDetailForm.resources
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\obj\Debug\Bank_Mangment_System.TransactionsData.resources
