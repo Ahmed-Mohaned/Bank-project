@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Study\\source\\repos\\Bank-mangment-system\\Bank Mangment System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A3FBBBE7-FBE1-4D14-9260-1950069A4DFB}|Bank Mangment System\\Bank Mangment System.csproj|C:\\Users\\Study\\source\\repos\\Bank-mangment-system\\Bank Mangment System\\bank mangment system\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A3FBBBE7-FBE1-4D14-9260-1950069A4DFB}|Bank Mangment System\\Bank Mangment System.csproj|solutionrelative:bank mangment system\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A3FBBBE7-FBE1-4D14-9260-1950069A4DFB}|Bank Mangment System\\Bank Mangment System.csproj|C:\\Users\\Study\\source\\repos\\Bank-mangment-system\\Bank Mangment System\\bank mangment system\\clientdetailform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3FBBBE7-FBE1-4D14-9260-1950069A4DFB}|Bank Mangment System\\Bank Mangment System.csproj|solutionrelative:bank mangment system\\clientdetailform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A3FBBBE7-FBE1-4D14-9260-1950069A4DFB}|Bank Mangment System\\Bank Mangment System.csproj|C:\\Users\\Study\\source\\repos\\Bank-mangment-system\\Bank Mangment System\\bank mangment system\\clientdetailform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A3FBBBE7-FBE1-4D14-9260-1950069A4DFB}|Bank Mangment System\\Bank Mangment System.csproj|solutionrelative:bank mangment system\\clientdetailform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3FBBBE7-FBE1-4D14-9260-1950069A4DFB}|Bank Mangment System\\Bank Mangment System.csproj|c:\\users\\study\\source\\repos\\bank-mangment-system\\bank mangment system\\bank mangment system\\accountinfos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3FBBBE7-FBE1-4D14-9260-1950069A4DFB}|Bank Mangment System\\Bank Mangment System.csproj|solutionrelative:bank mangment system\\accountinfos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3FBBBE7-FBE1-4D14-9260-1950069A4DFB}|Bank Mangment System\\Bank Mangment System.csproj|C:\\Users\\Study\\source\\repos\\Bank-mangment-system\\Bank Mangment System\\bank mangment system\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3FBBBE7-FBE1-4D14-9260-1950069A4DFB}|Bank Mangment System\\Bank Mangment System.csproj|solutionrelative:bank mangment system\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A3FBBBE7-FBE1-4D14-9260-1950069A4DFB}|Bank Mangment System\\Bank Mangment System.csproj|C:\\Users\\Study\\source\\repos\\Bank-mangment-system\\Bank Mangment System\\bank mangment system\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A3FBBBE7-FBE1-4D14-9260-1950069A4DFB}|Bank Mangment System\\Bank Mangment System.csproj|solutionrelative:bank mangment system\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A3FBBBE7-FBE1-4D14-9260-1950069A4DFB}|Bank Mangment System\\Bank Mangment System.csproj|C:\\Users\\Study\\source\\repos\\Bank-mangment-system\\Bank Mangment System\\bank mangment system\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A3FBBBE7-FBE1-4D14-9260-1950069A4DFB}|Bank Mangment System\\Bank Mangment System.csproj|solutionrelative:bank mangment system\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3FBBBE7-FBE1-4D14-9260-1950069A4DFB}|Bank Mangment System\\Bank Mangment System.csproj|C:\\Users\\Study\\source\\repos\\Bank-mangment-system\\Bank Mangment System\\bank mangment system\\clientdetailform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3FBBBE7-FBE1-4D14-9260-1950069A4DFB}|Bank Mangment System\\Bank Mangment System.csproj|solutionrelative:bank mangment system\\clientdetailform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A3FBBBE7-FBE1-4D14-9260-1950069A4DFB}|Bank Mangment System\\Bank Mangment System.csproj|c:\\users\\study\\source\\repos\\bank-mangment-system\\bank mangment system\\bank mangment system\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3FBBBE7-FBE1-4D14-9260-1950069A4DFB}|Bank Mangment System\\Bank Mangment System.csproj|solutionrelative:bank mangment system\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3FBBBE7-FBE1-4D14-9260-1950069A4DFB}|Bank Mangment System\\Bank Mangment System.csproj|C:\\Users\\Study\\source\\repos\\Bank-mangment-system\\Bank Mangment System\\bank mangment system\\accountinfos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3FBBBE7-FBE1-4D14-9260-1950069A4DFB}|Bank Mangment System\\Bank Mangment System.csproj|solutionrelative:bank mangment system\\accountinfos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A3FBBBE7-FBE1-4D14-9260-1950069A4DFB}|Bank Mangment System\\Bank Mangment System.csproj|C:\\Users\\Study\\source\\repos\\Bank-mangment-system\\Bank Mangment System\\bank mangment system\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -44,28 +44,42 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientDetailForm.cs",
+              "DocumentMoniker": "C:\\Users\\Study\\source\\repos\\Bank-mangment-system\\Bank Mangment System\\Bank Mangment System\\ClientDetailForm.cs",
+              "RelativeDocumentMoniker": "Bank Mangment System\\ClientDetailForm.cs",
+              "ToolTip": "C:\\Users\\Study\\source\\repos\\Bank-mangment-system\\Bank Mangment System\\Bank Mangment System\\ClientDetailForm.cs",
+              "RelativeToolTip": "Bank Mangment System\\ClientDetailForm.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAApwE8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T21:25:26.094Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MainForm.cs",
               "DocumentMoniker": "C:\\Users\\Study\\source\\repos\\Bank-mangment-system\\Bank Mangment System\\Bank Mangment System\\MainForm.cs",
               "RelativeDocumentMoniker": "Bank Mangment System\\MainForm.cs",
               "ToolTip": "C:\\Users\\Study\\source\\repos\\Bank-mangment-system\\Bank Mangment System\\Bank Mangment System\\MainForm.cs",
               "RelativeToolTip": "Bank Mangment System\\MainForm.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAlwCgAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAOQAAAAAAAAAAAAAAPcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-28T15:31:09.613Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "SignUpForm.cs",
               "DocumentMoniker": "C:\\Users\\Study\\source\\repos\\Bank-mangment-system\\Bank Mangment System\\Bank Mangment System\\SignUpForm.cs",
               "RelativeDocumentMoniker": "Bank Mangment System\\SignUpForm.cs",
@@ -90,20 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ClientDetailForm.cs",
-              "DocumentMoniker": "C:\\Users\\Study\\source\\repos\\Bank-mangment-system\\Bank Mangment System\\Bank Mangment System\\ClientDetailForm.cs",
-              "RelativeDocumentMoniker": "Bank Mangment System\\ClientDetailForm.cs",
-              "ToolTip": "C:\\Users\\Study\\source\\repos\\Bank-mangment-system\\Bank Mangment System\\Bank Mangment System\\ClientDetailForm.cs",
-              "RelativeToolTip": "Bank Mangment System\\ClientDetailForm.cs",
-              "ViewState": "AgIAAN8AAAAAAAAAAAAAAPYAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T21:25:26.094Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Study\\source\\repos\\Bank-mangment-system\\Bank Mangment System\\Bank Mangment System\\MainForm.cs",
               "RelativeDocumentMoniker": "Bank Mangment System\\MainForm.cs",
@@ -115,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "AccountInfos.cs",
               "DocumentMoniker": "C:\\Users\\Study\\source\\repos\\Bank-mangment-system\\Bank Mangment System\\Bank Mangment System\\AccountInfos.cs",
               "RelativeDocumentMoniker": "Bank Mangment System\\AccountInfos.cs",
@@ -123,8 +124,7 @@
               "RelativeToolTip": "Bank Mangment System\\AccountInfos.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAAACcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T18:24:05.753Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-29T18:24:05.753Z"
             },
             {
               "$type": "Document",
@@ -148,8 +148,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\Desktop\\LoginForm.cs",
               "ViewState": "AgIAAKEAAAAAAAAAAAAkwLoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T05:00:28.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T05:00:28.494Z"
             },
             {
               "$type": "Document",
@@ -160,8 +159,7 @@
               "ToolTip": "C:\\Users\\Study\\Desktop\\LoginForm.cs [Design]",
               "RelativeToolTip": "..\\..\\..\\..\\Desktop\\LoginForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T04:11:29.219Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-19T04:11:29.219Z"
             }
           ]
         }
