@@ -39,14 +39,14 @@
             this.TransactionsDatagrid.Name = "TransactionsDatagrid";
             this.TransactionsDatagrid.RowHeadersWidth = 62;
             this.TransactionsDatagrid.RowTemplate.Height = 28;
-            this.TransactionsDatagrid.Size = new System.Drawing.Size(1271, 689);
+            this.TransactionsDatagrid.Size = new System.Drawing.Size(943, 689);
             this.TransactionsDatagrid.TabIndex = 0;
             // 
             // TransactionsData
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1295, 728);
+            this.ClientSize = new System.Drawing.Size(958, 721);
             this.Controls.Add(this.TransactionsDatagrid);
             this.Name = "TransactionsData";
             this.Text = "TransactionsData";

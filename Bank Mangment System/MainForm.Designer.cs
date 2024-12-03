@@ -31,6 +31,12 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.SideBar = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.SearchButton = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.SignUpButton = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.Menulabel = new System.Windows.Forms.Label();
             this.MenuButton = new System.Windows.Forms.PictureBox();
@@ -39,20 +45,14 @@
             this.NamesdataGridView = new System.Windows.Forms.DataGridView();
             this.Searchbtn = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.SignUpButton = new System.Windows.Forms.PictureBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.SearchButton = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.SideBar.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.SearchButton)).BeginInit();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.SignUpButton)).BeginInit();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.MenuButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NamesdataGridView)).BeginInit();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.SignUpButton)).BeginInit();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.SearchButton)).BeginInit();
             this.SuspendLayout();
             // 
             // SideBar
@@ -65,11 +65,80 @@
             this.SideBar.Controls.Add(this.panel3);
             this.SideBar.Location = new System.Drawing.Point(0, 0);
             this.SideBar.MaximumSize = new System.Drawing.Size(203, 855);
-            this.SideBar.MinimumSize = new System.Drawing.Size(65, 855);
+            this.SideBar.MinimumSize = new System.Drawing.Size(40, 855);
             this.SideBar.Name = "SideBar";
-            this.SideBar.Size = new System.Drawing.Size(203, 855);
+            this.SideBar.Size = new System.Drawing.Size(40, 855);
             this.SideBar.TabIndex = 1;
             this.SideBar.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.SearchButton);
+            this.panel2.Controls.Add(this.label2);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 180);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(38, 100);
+            this.panel2.TabIndex = 2;
+            // 
+            // SearchButton
+            // 
+            this.SearchButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.SearchButton.Image = ((System.Drawing.Image)(resources.GetObject("SearchButton.Image")));
+            this.SearchButton.Location = new System.Drawing.Point(9, 27);
+            this.SearchButton.Name = "SearchButton";
+            this.SearchButton.Size = new System.Drawing.Size(52, 41);
+            this.SearchButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.SearchButton.TabIndex = 2;
+            this.SearchButton.TabStop = false;
+            this.SearchButton.Click += new System.EventHandler(this.SearchButton_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(67, 36);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(77, 23);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Search";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.SignUpButton);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 80);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(38, 100);
+            this.panel1.TabIndex = 1;
+            // 
+            // SignUpButton
+            // 
+            this.SignUpButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.SignUpButton.Image = ((System.Drawing.Image)(resources.GetObject("SignUpButton.Image")));
+            this.SignUpButton.Location = new System.Drawing.Point(9, 27);
+            this.SignUpButton.Name = "SignUpButton";
+            this.SignUpButton.Size = new System.Drawing.Size(52, 41);
+            this.SignUpButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.SignUpButton.TabIndex = 2;
+            this.SignUpButton.TabStop = false;
+            this.SignUpButton.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(67, 36);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(82, 23);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Sign Up";
             // 
             // panel3
             // 
@@ -78,7 +147,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(201, 80);
+            this.panel3.Size = new System.Drawing.Size(38, 80);
             this.panel3.TabIndex = 0;
             this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
@@ -180,75 +249,6 @@
             this.guna2Button1.Text = "creat clint account";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.SignUpButton);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 80);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(201, 100);
-            this.panel1.TabIndex = 1;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(67, 36);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(82, 23);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Sign Up";
-            // 
-            // SignUpButton
-            // 
-            this.SignUpButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.SignUpButton.Image = ((System.Drawing.Image)(resources.GetObject("SignUpButton.Image")));
-            this.SignUpButton.Location = new System.Drawing.Point(9, 27);
-            this.SignUpButton.Name = "SignUpButton";
-            this.SignUpButton.Size = new System.Drawing.Size(52, 41);
-            this.SignUpButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.SignUpButton.TabIndex = 2;
-            this.SignUpButton.TabStop = false;
-            this.SignUpButton.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.SearchButton);
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 180);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(201, 100);
-            this.panel2.TabIndex = 2;
-            // 
-            // SearchButton
-            // 
-            this.SearchButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.SearchButton.Image = ((System.Drawing.Image)(resources.GetObject("SearchButton.Image")));
-            this.SearchButton.Location = new System.Drawing.Point(9, 27);
-            this.SearchButton.Name = "SearchButton";
-            this.SearchButton.Size = new System.Drawing.Size(52, 41);
-            this.SearchButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.SearchButton.TabIndex = 2;
-            this.SearchButton.TabStop = false;
-            this.SearchButton.Click += new System.EventHandler(this.SearchButton_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(67, 36);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(77, 23);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Search";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -266,16 +266,16 @@
             this.Text = "MainForm";
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.SideBar.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.SearchButton)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.SignUpButton)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.MenuButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NamesdataGridView)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.SignUpButton)).EndInit();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.SearchButton)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

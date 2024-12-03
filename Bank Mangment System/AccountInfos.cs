@@ -8,12 +8,12 @@ namespace Bank_Mangment_System
 {
     public class AccountInfos
     {
-        private Name name = new Name();  // تهيئة الكائن
-        private Name motherName = new Name();  // تهيئة الكائن
+        private Name name = new Name();  
+        private Name motherName = new Name();  
         private string phoneNumber;
-        private Birth birth = new Birth();  // تهيئة الكائن
+        private Birth birth = new Birth();  
         private string gender;
-        private Location location = new Location();  // تهيئة الكائن
+        private Location location = new Location(); 
         private string email;
         private string password;
         private string nationalIDCardPath;
@@ -24,8 +24,7 @@ namespace Bank_Mangment_System
         private decimal balance;
         private string cardNumber;
 
-        public Name Name { get => name; set => name = value; }
-        public Name MotherName { get => motherName; set => motherName = value; }
+       
         public string PhoneNumber { get => phoneNumber; set => phoneNumber = value; }
         public Birth Birth { get => birth; set => birth = value; }
         public string Gender { get => gender; set => gender = value; }
@@ -39,7 +38,8 @@ namespace Bank_Mangment_System
         public string Photo { get => photo; set => photo = value; }
         public decimal Balance { get => balance; set => balance = value; }
         public string CardNumber { get => cardNumber; set => cardNumber = value; }
-      
+        public Name Name { get => name; set => name = value; }
+        public Name MotherName { get => motherName; set => motherName = value; }
 
         public string GenerateRandomCardNumber(int length)
         {
@@ -48,7 +48,7 @@ namespace Bank_Mangment_System
 
             for (int i = 0; i < length; i++)
             {
-                cardNumber += random.Next(0, 10); // توليد رقم بين 0 و 9
+                cardNumber += random.Next(0, 10); 
             }
 
             return cardNumber;

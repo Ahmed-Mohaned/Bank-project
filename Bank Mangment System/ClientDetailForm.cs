@@ -114,7 +114,7 @@ namespace Bank_Mangment_System
         private void ClientDetailForm_Load(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Maximized;
-            SideBar.MinimumSize = new Size(44, 1050);
+           
             FullNametxt.Text = FullName;
             MotherNametxt.Text = FullMotherName;
             PhoneNumbertxt.Text = PhoneNumber;
@@ -154,29 +154,8 @@ namespace Bank_Mangment_System
         {
 
         }
-        private void SideBarTimer_Tick(object sender, EventArgs e)
-        {
-            // Set The minimize and maximize of sidebar;
-            if (SideBarExpand)
-            {
-                // if side bar is expand then minimize;
-                SideBar.Width -= 10;
-                if (SideBar.Width == SideBar.MinimumSize.Width)
-                {
-                    SideBarExpand = false;
-                    SideBarTimer.Stop();
-                }
-            }
-            else
-            {
-                SideBar.Width += 10;
-                if (SideBar.Width == SideBar.MaximumSize.Width)
-                {
-                    SideBarExpand = true;
-                    SideBarTimer.Stop();
-                }
-            }
-        }
+       
+        
         private void MenuButton_Click(object sender, EventArgs e)
         {
             SideBarTimer.Start();
