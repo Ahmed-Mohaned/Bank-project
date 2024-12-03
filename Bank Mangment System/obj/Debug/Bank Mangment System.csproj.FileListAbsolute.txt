@@ -1,28 +1,19 @@
-C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\Bank Mangment System.exe.config
 C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\Bank Mangment System.exe
-C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\Bank Mangment System.pdb
-C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\obj\Debug\Bank Mangment System.csproj.AssemblyReference.cache
-C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\obj\Debug\Bank_Mangment_System.Properties.Resources.resources
-C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\obj\Debug\Bank Mangment System.csproj.GenerateResource.cache
-C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\obj\Debug\Bank Mangment System.csproj.CoreCompileInputs.cache
-C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\obj\Debug\Bank Mangment System.exe
-C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\obj\Debug\Bank Mangment System.pdb
-C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\obj\Debug\Bank_Mangment_System.LoginForm.resources
-C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\FontAwesome.Sharp.dll
-C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\obj\Debug\Bank Man.05356C96.Up2Date
-C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\obj\Debug\Bank_Mangment_System.SignUpForm.resources
 C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\Guna.UI2.dll
 C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
 C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
 C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\Bank Mangment System.exe.config
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\AForge.dll
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\AForge.Video.dll
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\Microsoft.Web.WebView2.Core.dll
 C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
 C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
-C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\Microsoft.Web.WebView2.Core.xml
-C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
-C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
-C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\System.Buffers.dll
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\System.Drawing.Common.dll
 C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\System.Memory.dll
 C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\System.Numerics.Vectors.dll
 C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
@@ -30,8 +21,16 @@ C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangm
 C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\System.Text.Json.dll
 C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\System.Threading.Tasks.Extensions.dll
 C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\System.ValueTuple.dll
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\AForge.xml
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\AForge.Video.xml
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\AForge.Video.DirectShow.xml
 C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\Microsoft.Web.WebView2.Core.xml
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
 C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\System.Buffers.xml
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\System.Drawing.Common.pdb
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\System.Drawing.Common.xml
 C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\System.Memory.xml
 C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
@@ -39,17 +38,18 @@ C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangm
 C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\System.Text.Json.xml
 C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\System.ValueTuple.xml
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\obj\Debug\Bank Mangment System.csproj.AssemblyReference.cache
 C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\obj\Debug\Bank Mangment System.csproj.SuggestedBindingRedirects.cache
 C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\obj\Debug\Bank Mangment System.exe.config
-C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\System.Drawing.Common.dll
-C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\System.Drawing.Common.pdb
-C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\System.Drawing.Common.xml
-C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\AForge.dll
-C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\AForge.Video.DirectShow.dll
-C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\AForge.Video.dll
-C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\AForge.xml
-C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\AForge.Video.xml
-C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\AForge.Video.DirectShow.xml
-C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\obj\Debug\Bank_Mangment_System.MainForm.resources
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\obj\Debug\Bank_Mangment_System.LoginForm.resources
 C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\obj\Debug\Bank_Mangment_System.ClientDetailForm.resources
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\obj\Debug\Bank_Mangment_System.MainForm.resources
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\obj\Debug\Bank_Mangment_System.Properties.Resources.resources
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\obj\Debug\Bank_Mangment_System.SignUpForm.resources
 C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\obj\Debug\Bank_Mangment_System.TransactionsData.resources
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\obj\Debug\Bank Mangment System.csproj.GenerateResource.cache
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\obj\Debug\Bank Mangment System.csproj.CoreCompileInputs.cache
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\obj\Debug\Bank Man.05356C96.Up2Date
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\obj\Debug\Bank Mangment System.exe
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\obj\Debug\Bank Mangment System.pdb
+C:\Users\Study\source\repos\Bank-mangment-system\Bank Mangment System\Bank Mangment System\bin\Debug\Bank Mangment System.pdb

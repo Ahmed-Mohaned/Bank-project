@@ -38,8 +38,8 @@ namespace Bank_Mangment_System
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-            this.WindowState = FormWindowState.Maximized;
-            SideBar.MinimumSize = new Size(44, 1050);
+            
+            SideBar.MinimumSize = new Size(40, 855);
             
 
 
@@ -242,11 +242,35 @@ namespace Bank_Mangment_System
         private void guna2Button1_Click(object sender, EventArgs e)
         {
             SignUpForm signUpForm = new SignUpForm();
+            signUpForm.Show();
+
         }
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
            
+        }
+
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            SignUpForm signUpForm = new SignUpForm();
+            signUpForm.Show();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SearchButton_Click(object sender, EventArgs e)
+        {
+            MainForm mainform = new MainForm();
+            mainform.Show();
         }
     }
 }

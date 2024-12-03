@@ -11,6 +11,8 @@ using System.Windows.Forms;
 using TheArtOfDevHtmlRenderer.Adapters;
 using AForge.Video;
 using AForge.Video.DirectShow;
+using Guna.UI2.WinForms;
+using System.Runtime.Remoting.Lifetime;
 
 
 namespace Bank_Mangment_System
@@ -42,13 +44,12 @@ namespace Bank_Mangment_System
             }
             ClientfilePath = Path.Combine(ClientfolderPath, "ClientData.txt");
         }
-        
+
         
         private void SignUpForm_Load(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Maximized;
-
-
+            
         }
 
         private void button1_Click(object sender, EventArgs e)

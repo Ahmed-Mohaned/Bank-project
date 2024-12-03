@@ -64,6 +64,18 @@
             this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.Camerapicbox = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.PesonalInfosGB.SuspendLayout();
             this.LocationandAccountinfosGB.SuspendLayout();
@@ -113,7 +125,7 @@
             this.FirstNametxt.BorderRadius = 13;
             this.FirstNametxt.BorderThickness = 0;
             this.FirstNametxt.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.FirstNametxt.DefaultText = "First Name";
+            this.FirstNametxt.DefaultText = "";
             this.FirstNametxt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.FirstNametxt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.FirstNametxt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -138,7 +150,7 @@
             this.MiddleNametxt.BorderRadius = 13;
             this.MiddleNametxt.BorderThickness = 0;
             this.MiddleNametxt.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.MiddleNametxt.DefaultText = "Middle Name";
+            this.MiddleNametxt.DefaultText = "";
             this.MiddleNametxt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.MiddleNametxt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.MiddleNametxt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -163,7 +175,7 @@
             this.LastNametxt.BorderRadius = 13;
             this.LastNametxt.BorderThickness = 0;
             this.LastNametxt.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.LastNametxt.DefaultText = "Last Name";
+            this.LastNametxt.DefaultText = "";
             this.LastNametxt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.LastNametxt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.LastNametxt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -188,7 +200,7 @@
             this.FamilyNametxt.BorderRadius = 13;
             this.FamilyNametxt.BorderThickness = 0;
             this.FamilyNametxt.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.FamilyNametxt.DefaultText = "Family Name";
+            this.FamilyNametxt.DefaultText = "";
             this.FamilyNametxt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.FamilyNametxt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.FamilyNametxt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -213,7 +225,7 @@
             this.MotherFNtxt.BorderRadius = 13;
             this.MotherFNtxt.BorderThickness = 0;
             this.MotherFNtxt.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.MotherFNtxt.DefaultText = "Mother`s First Name";
+            this.MotherFNtxt.DefaultText = "";
             this.MotherFNtxt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.MotherFNtxt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.MotherFNtxt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -238,7 +250,7 @@
             this.MotherLNtxt.BorderRadius = 13;
             this.MotherLNtxt.BorderThickness = 0;
             this.MotherLNtxt.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.MotherLNtxt.DefaultText = "Mother`s Last Name";
+            this.MotherLNtxt.DefaultText = "";
             this.MotherLNtxt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.MotherLNtxt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.MotherLNtxt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -263,7 +275,7 @@
             this.PhoneNumbertxt.BorderRadius = 13;
             this.PhoneNumbertxt.BorderThickness = 0;
             this.PhoneNumbertxt.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.PhoneNumbertxt.DefaultText = "Phone Number";
+            this.PhoneNumbertxt.DefaultText = "";
             this.PhoneNumbertxt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.PhoneNumbertxt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.PhoneNumbertxt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -285,6 +297,13 @@
             // 
             // PesonalInfosGB
             // 
+            this.PesonalInfosGB.Controls.Add(this.label9);
+            this.PesonalInfosGB.Controls.Add(this.label8);
+            this.PesonalInfosGB.Controls.Add(this.label7);
+            this.PesonalInfosGB.Controls.Add(this.label6);
+            this.PesonalInfosGB.Controls.Add(this.label5);
+            this.PesonalInfosGB.Controls.Add(this.label4);
+            this.PesonalInfosGB.Controls.Add(this.label3);
             this.PesonalInfosGB.Controls.Add(this.BirthDateDateTimePicker1);
             this.PesonalInfosGB.Controls.Add(this.FemaleLabel);
             this.PesonalInfosGB.Controls.Add(this.MaleLabel);
@@ -419,6 +438,11 @@
             // 
             // LocationandAccountinfosGB
             // 
+            this.LocationandAccountinfosGB.Controls.Add(this.label14);
+            this.LocationandAccountinfosGB.Controls.Add(this.label13);
+            this.LocationandAccountinfosGB.Controls.Add(this.label12);
+            this.LocationandAccountinfosGB.Controls.Add(this.label11);
+            this.LocationandAccountinfosGB.Controls.Add(this.label10);
             this.LocationandAccountinfosGB.Controls.Add(this.housingbtn);
             this.LocationandAccountinfosGB.Controls.Add(this.Passportbtn);
             this.LocationandAccountinfosGB.Controls.Add(this.EmployeeRbtn);
@@ -497,7 +521,7 @@
             this.Alleytxt.BorderRadius = 13;
             this.Alleytxt.BorderThickness = 0;
             this.Alleytxt.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.Alleytxt.DefaultText = "Alley";
+            this.Alleytxt.DefaultText = "";
             this.Alleytxt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.Alleytxt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.Alleytxt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -522,7 +546,7 @@
             this.Districttxt.BorderRadius = 13;
             this.Districttxt.BorderThickness = 0;
             this.Districttxt.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.Districttxt.DefaultText = "District";
+            this.Districttxt.DefaultText = "";
             this.Districttxt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.Districttxt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.Districttxt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -547,7 +571,7 @@
             this.Emailtxt.BorderRadius = 13;
             this.Emailtxt.BorderThickness = 0;
             this.Emailtxt.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.Emailtxt.DefaultText = "E-Mail";
+            this.Emailtxt.DefaultText = "";
             this.Emailtxt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.Emailtxt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.Emailtxt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -572,7 +596,7 @@
             this.Housetxt.BorderRadius = 13;
             this.Housetxt.BorderThickness = 0;
             this.Housetxt.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.Housetxt.DefaultText = "House";
+            this.Housetxt.DefaultText = "";
             this.Housetxt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.Housetxt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.Housetxt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -597,7 +621,7 @@
             this.Passwordtxt.BorderRadius = 13;
             this.Passwordtxt.BorderThickness = 0;
             this.Passwordtxt.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.Passwordtxt.DefaultText = "Password";
+            this.Passwordtxt.DefaultText = "";
             this.Passwordtxt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.Passwordtxt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.Passwordtxt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -743,6 +767,126 @@
             this.Camerapicbox.TabIndex = 0;
             this.Camerapicbox.TabStop = false;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(29, 26);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(89, 19);
+            this.label3.TabIndex = 20;
+            this.label3.Text = "First Name";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(29, 129);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(116, 19);
+            this.label4.TabIndex = 21;
+            this.label4.Text = "Middle Name";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(29, 234);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(90, 19);
+            this.label5.TabIndex = 22;
+            this.label5.Text = "Last Name";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Century Gothic", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(29, 345);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(114, 19);
+            this.label6.TabIndex = 23;
+            this.label6.Text = "Family Name";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Century Gothic", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(31, 442);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(156, 19);
+            this.label7.TabIndex = 24;
+            this.label7.Text = "Mother\'s First Name";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Century Gothic", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(29, 544);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(157, 19);
+            this.label8.TabIndex = 25;
+            this.label8.Text = "Mother\'s Last Name";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Century Gothic", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(31, 647);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(126, 19);
+            this.label9.TabIndex = 26;
+            this.label9.Text = "Phone Number";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Century Gothic", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(34, 28);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(57, 19);
+            this.label10.TabIndex = 27;
+            this.label10.Text = "District";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Century Gothic", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(34, 129);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(48, 19);
+            this.label11.TabIndex = 28;
+            this.label11.Text = "Alley";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Century Gothic", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(34, 234);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(56, 19);
+            this.label12.TabIndex = 29;
+            this.label12.Text = "House";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Century Gothic", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(34, 345);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(57, 19);
+            this.label13.TabIndex = 30;
+            this.label13.Text = "E-Mail";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Century Gothic", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(34, 442);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(80, 19);
+            this.label14.TabIndex = 31;
+            this.label14.Text = "Password";
+            // 
             // SignUpForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -806,5 +950,17 @@
         private System.Windows.Forms.PictureBox Camerapicbox;
         private Guna.UI2.WinForms.Guna2Button Signupbtn;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label10;
     }
 }

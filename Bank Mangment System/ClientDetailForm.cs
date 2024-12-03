@@ -355,5 +355,10 @@ namespace Bank_Mangment_System
                 MessageBox.Show($"Error loading transactions: {ex.Message}", "Error");
             }
         }
+
+        private void RecipientTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
