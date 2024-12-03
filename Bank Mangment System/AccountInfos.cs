@@ -21,7 +21,7 @@ namespace Bank_Mangment_System
         private string residenceCardPath;
         private bool employee;
         private string photo;
-        private long balance=0;
+        private decimal balance;
         private string cardNumber;
 
         public Name Name { get => name; set => name = value; }
@@ -37,7 +37,7 @@ namespace Bank_Mangment_System
         public string ResidenceCardPath { get => residenceCardPath; set => residenceCardPath = value; }
         public bool Employee { get => employee; set => employee = value; }
         public string Photo { get => photo; set => photo = value; }
-        public long Balance { get => balance; set => balance = value; }
+        public decimal Balance { get => balance; set => balance = value; }
         public string CardNumber { get => cardNumber; set => cardNumber = value; }
       
 

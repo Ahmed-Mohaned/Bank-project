@@ -24,8 +24,11 @@ namespace Bank_Mangment_System
         private string Email;
         private string Password;
         private string Age;
-        private long Balance;
+        private decimal Balance;
         private string CardNumber;
+        private string NationalIDCardPath;
+        private string PassportPath;
+        private string ResidenceCardPath;
 
 
         public MainForm()
@@ -140,12 +143,17 @@ namespace Bank_Mangment_System
                         Location = "District: "+userData[9]+"/"+ "Alley: " + userData[10]+"/"+ "House: " + userData[11];
                         Email = userData[12];
                         Password = userData[13];
-                        Balance = Convert.ToInt64(userData[17]);
+                        NationalIDCardPath = userData[14];
+                        PassportPath = userData[15];
+                        ResidenceCardPath = userData[16];
+                        Balance = Convert.ToDecimal(userData[17]);
                         CardNumber = userData[18];
                         string FirstName = userData[0];
                         string LastName = userData[1];
-                        if(searchName == FirstName)
+                        if (searchName == FirstName)
                             NamesdataGridView.Rows.Add(FirstName, LastName);
+
+
 
 
 
@@ -176,7 +184,7 @@ namespace Bank_Mangment_System
         private void OpenClientDetailForm(string fullName)
         {
             var clientDetailForm = new ClientDetailForm(FullName, FullMotherName, PhoneNumber
-                                                         , Age, Gender,Location,Email,Password,Balance,CardNumber);
+                                                         , Age, Gender,Location,Email,Password,NationalIDCardPath,PassportPath,ResidenceCardPath,Balance,CardNumber,ClientFilePath);
             clientDetailForm.Show();
         }
 
